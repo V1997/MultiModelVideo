@@ -1,0 +1,1448 @@
+2025-06-03 12:53:03,236 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 12:53:17,066 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 12:56:19,997 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 12:57:16,361 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 12:57:16,362 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 12:57:16,565 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 12:57:16,565 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 12:57:16,565 - src.core.database - ERROR - Failed to initialize database: 'Settings' object has no attribute 'chromadb_path'
+2025-06-03 12:57:16,565 - src.core.database - ERROR - Failed to initialize database: 'Settings' object has no attribute 'chromadb_path'
+2025-06-03 12:57:16,565 - src.main - ERROR - Failed to initialize system: 'Settings' object has no attribute 'chromadb_path'
+2025-06-03 12:57:16,565 - src.main - ERROR - Failed to initialize system: 'Settings' object has no attribute 'chromadb_path'
+2025-06-03 12:57:25,260 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 12:57:25,259 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 12:57:34,781 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 12:57:34,781 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 12:57:40,563 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 12:57:40,563 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 12:57:49,722 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 12:57:49,722 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:00:36,901 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:00:52,025 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:01:17,245 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:01:31,629 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:01:39,709 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:02:11,226 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:02:35,598 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:02:35,834 - __main__ - INFO - Starting server on 127.0.0.1:8000
+2025-06-03 13:02:46,842 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:02:47,044 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 13:02:47,045 - src.core.database - ERROR - Failed to initialize database: 'Settings' object has no attribute 'chromadb_path'
+2025-06-03 13:02:47,045 - src.main - ERROR - Failed to initialize system: 'Settings' object has no attribute 'chromadb_path'
+2025-06-03 13:03:23,321 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:03:23,521 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 13:03:23,857 - src.core.database - ERROR - Failed to initialize database: 'Settings' object has no attribute 'vector_db_collection'
+2025-06-03 13:03:23,857 - src.main - ERROR - Failed to initialize system: 'Settings' object has no attribute 'vector_db_collection'
+2025-06-03 13:03:29,542 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:03:29,749 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 13:03:29,958 - src.core.database - ERROR - Failed to initialize database: 'Settings' object has no attribute 'vector_db_collection'
+2025-06-03 13:03:29,959 - src.main - ERROR - Failed to initialize system: 'Settings' object has no attribute 'vector_db_collection'
+2025-06-03 13:03:56,207 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:03:56,397 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 13:03:56,596 - src.core.database - ERROR - Failed to initialize database: 'Settings' object has no attribute 'vector_db_collection'
+2025-06-03 13:03:56,596 - src.main - ERROR - Failed to initialize system: 'Settings' object has no attribute 'vector_db_collection'
+2025-06-03 13:04:08,962 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:04:09,154 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 13:04:09,379 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 13:04:09,379 - src.main - INFO - System initialized successfully
+2025-06-03 13:04:47,402 - src.services.video_processor - ERROR - Error processing YouTube video: Object of type datetime is not JSON serializable
+2025-06-03 13:04:47,402 - src.api.routes.videos - ERROR - Error processing YouTube video: Object of type datetime is not JSON serializable
+2025-06-03 13:06:11,769 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 13:06:13,889 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:06:14,098 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 13:06:14,328 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 13:06:14,328 - src.main - INFO - System initialized successfully
+2025-06-03 13:06:14,329 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 13:06:16,436 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:06:16,638 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 13:06:16,859 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 13:06:16,859 - src.main - INFO - System initialized successfully
+2025-06-03 13:06:24,036 - src.services.video_processor - INFO - Processed YouTube video: youtube_eEg5ZjFxMmU
+2025-06-03 13:06:24,037 - src.api.routes.videos - INFO - Processing transcript-only video youtube_eEg5ZjFxMmU
+2025-06-03 13:06:25,131 - src.services.video_processor - ERROR - Error extracting transcript: no element found: line 1, column 0
+2025-06-03 13:06:25,133 - src.services.video_processor - INFO - Generated 0 chapters from transcript for video youtube_eEg5ZjFxMmU
+2025-06-03 13:06:25,133 - src.services.rag_service - WARNING - No content to index for video youtube_eEg5ZjFxMmU
+2025-06-03 13:06:25,133 - src.services.video_processor - INFO - Cleaned up temp files for video youtube_eEg5ZjFxMmU
+2025-06-03 13:06:25,133 - src.api.routes.videos - INFO - Video youtube_eEg5ZjFxMmU processing completed successfully
+2025-06-03 13:06:25,142 - src.core.database - INFO - Deleted embeddings for video: youtube_eEg5ZjFxMmU
+2025-06-03 13:06:25,142 - src.services.rag_service - INFO - Deleted index for video youtube_eEg5ZjFxMmU
+2025-06-03 13:06:40,165 - src.services.video_processor - INFO - Processed YouTube video: youtube_eEg5ZjFxMmU
+2025-06-03 13:06:40,166 - src.api.routes.videos - INFO - Processing transcript-only video youtube_eEg5ZjFxMmU
+2025-06-03 13:06:41,029 - src.services.video_processor - ERROR - Error extracting transcript: no element found: line 1, column 0
+2025-06-03 13:06:41,032 - src.services.video_processor - INFO - Generated 0 chapters from transcript for video youtube_eEg5ZjFxMmU
+2025-06-03 13:06:41,033 - src.services.rag_service - WARNING - No content to index for video youtube_eEg5ZjFxMmU
+2025-06-03 13:06:41,033 - src.services.video_processor - INFO - Cleaned up temp files for video youtube_eEg5ZjFxMmU
+2025-06-03 13:06:41,033 - src.api.routes.videos - INFO - Video youtube_eEg5ZjFxMmU processing completed successfully
+2025-06-03 13:06:51,737 - src.services.ai_service - ERROR - API request failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 13:06:51,737 - src.services.ai_service - ERROR - Error generating text embeddings: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 13:06:51,747 - src.services.rag_service - INFO - Retrieved 0 transcript chunks and 0 frames for query: What is this video about ?
+2025-06-03 13:06:51,747 - src.api.routes.chat - ERROR - Error processing chat message: AIService.chat_with_video() got an unexpected keyword argument 'query'
+2025-06-03 13:08:52,501 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 13:08:56,465 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:08:56,717 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 13:08:56,917 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 13:08:56,917 - src.main - INFO - System initialized successfully
+2025-06-03 13:08:56,917 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 13:08:59,096 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:08:59,301 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 13:08:59,514 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 13:08:59,514 - src.main - INFO - System initialized successfully
+2025-06-03 13:09:00,173 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 13:11:04,133 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:11:04,340 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 13:11:04,539 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 13:11:04,539 - src.main - INFO - System initialized successfully
+2025-06-03 13:11:13,662 - src.services.ai_service - ERROR - API request failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 13:11:13,663 - src.services.ai_service - ERROR - Error generating text embeddings: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 13:11:13,685 - src.services.rag_service - INFO - Retrieved 0 transcript chunks and 0 frames for query: What is this video about?
+2025-06-03 13:11:13,742 - src.services.ai_service - ERROR - API request failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 13:11:13,743 - src.services.ai_service - ERROR - Error in chat with video: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 13:17:26,599 - src.services.ai_service - ERROR - API request failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 13:17:26,599 - src.services.ai_service - ERROR - Error generating text embeddings: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 13:17:26,601 - src.services.rag_service - INFO - Retrieved 0 transcript chunks and 0 frames for query: What is this video about?
+2025-06-03 13:17:26,657 - src.services.ai_service - ERROR - API request failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 13:17:26,657 - src.services.ai_service - ERROR - Error in chat with video: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 13:20:06,154 - src.services.ai_service - ERROR - API request failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 13:20:06,155 - src.services.ai_service - ERROR - Error generating text embeddings: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 13:20:06,156 - src.services.rag_service - INFO - Retrieved 0 transcript chunks and 0 frames for query: What is this video about ?
+2025-06-03 13:20:06,211 - src.services.ai_service - ERROR - API request failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 13:20:06,211 - src.services.ai_service - ERROR - Error in chat with video: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 13:21:36,985 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 13:21:42,610 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:21:42,796 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 13:21:42,995 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 13:21:42,996 - src.main - INFO - System initialized successfully
+2025-06-03 13:21:50,008 - src.services.ai_service - ERROR - API request failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 13:21:50,008 - src.services.ai_service - ERROR - Error generating text embeddings: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 13:21:50,042 - src.services.rag_service - INFO - Retrieved 0 transcript chunks and 0 frames for query: what is this video about ?
+2025-06-03 13:21:50,096 - src.services.ai_service - ERROR - API request failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 13:21:50,097 - src.services.ai_service - ERROR - Error in chat with video: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 13:23:47,957 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 13:23:51,783 - src.services.ai_service - INFO - Using Gemini API key: your_gemin...
+2025-06-03 13:23:51,783 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:23:51,980 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 13:23:52,195 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 13:23:52,195 - src.main - INFO - System initialized successfully
+2025-06-03 13:23:52,196 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 13:23:54,172 - src.services.ai_service - INFO - Using Gemini API key: your_gemin...
+2025-06-03 13:23:54,172 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:23:54,374 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 13:23:54,579 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 13:23:54,579 - src.main - INFO - System initialized successfully
+2025-06-03 13:24:01,103 - src.services.ai_service - ERROR - Error generating text embeddings: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 13:24:01,126 - src.services.rag_service - INFO - Retrieved 0 transcript chunks and 0 frames for query: What is this video about?
+2025-06-03 13:24:01,186 - src.services.ai_service - ERROR - API request failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 13:24:01,187 - src.services.ai_service - ERROR - Error in chat with video: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 13:25:30,207 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 13:40:27,383 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 13:40:27,383 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 13:40:27,383 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 13:40:27,383 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:41:24,451 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 13:41:24,451 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 13:41:24,451 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 13:41:24,451 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:41:25,347 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 13:41:25,347 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 13:41:25,356 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 13:41:25,356 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:41:25,665 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 13:52:30,198 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 13:52:30,198 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 13:52:30,198 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 13:52:30,199 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:52:30,345 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 13:52:30,345 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 13:52:30,345 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 13:52:30,345 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:54:08,446 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 13:54:08,447 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 13:54:08,447 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 13:54:08,447 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:54:09,367 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 13:54:09,368 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 13:54:09,368 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 13:54:09,368 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:54:09,650 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 13:54:09,912 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 13:55:08,606 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 13:55:08,606 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 13:55:08,606 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 13:55:08,606 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:55:09,468 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 13:55:09,469 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 13:55:09,469 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 13:55:09,469 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:55:09,760 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 13:55:10,010 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 13:55:17,468 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 13:55:17,469 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 13:55:17,469 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 13:55:17,469 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:55:18,270 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 13:55:18,270 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 13:55:18,271 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 13:55:18,271 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:55:18,525 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 13:55:18,760 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 13:55:23,587 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 13:55:23,588 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 13:55:23,588 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 13:55:23,588 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:55:23,753 - __main__ - INFO - Chat routes loaded successfully
+2025-06-03 13:55:23,754 - __main__ - INFO - Starting AI-Powered Video Analysis System...
+2025-06-03 13:55:25,130 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 13:55:25,131 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 13:55:25,131 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 13:55:25,131 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:55:25,294 - __mp_main__ - INFO - Chat routes loaded successfully
+2025-06-03 13:55:25,326 - main - INFO - Chat routes loaded successfully
+2025-06-03 13:55:56,904 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 13:55:56,904 - src.core.database - ERROR - Failed to query embeddings: Database not initialized. Call initialize() first.
+2025-06-03 13:55:56,905 - src.services.rag_service - ERROR - Error retrieving relevant content: Database not initialized. Call initialize() first.
+2025-06-03 13:55:57,270 - src.services.ai_service - INFO - Generated chat response for video youtube_eEg5ZjFxMmU
+2025-06-03 13:56:03,817 - src.core.database - ERROR - Failed to delete embeddings for video youtube_eEg5ZjFxMmU: Database not initialized. Call initialize() first.
+2025-06-03 13:56:03,817 - src.services.rag_service - ERROR - Error deleting video index: Database not initialized. Call initialize() first.
+2025-06-03 13:56:12,457 - src.services.video_processor - INFO - Processed YouTube video: youtube_eEg5ZjFxMmU
+2025-06-03 13:56:12,458 - src.api.routes.videos - INFO - Processing transcript-only video youtube_eEg5ZjFxMmU
+2025-06-03 13:56:13,347 - src.services.video_processor - ERROR - Error extracting transcript: no element found: line 1, column 0
+2025-06-03 13:56:13,348 - src.services.video_processor - INFO - Generated 0 chapters from transcript for video youtube_eEg5ZjFxMmU
+2025-06-03 13:56:13,348 - src.services.rag_service - WARNING - No content to index for video youtube_eEg5ZjFxMmU
+2025-06-03 13:56:13,348 - src.services.video_processor - INFO - Cleaned up temp files for video youtube_eEg5ZjFxMmU
+2025-06-03 13:56:13,348 - src.api.routes.videos - INFO - Video youtube_eEg5ZjFxMmU processing completed successfully
+2025-06-03 13:56:26,964 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 13:56:26,964 - src.core.database - ERROR - Failed to query embeddings: Database not initialized. Call initialize() first.
+2025-06-03 13:56:26,964 - src.services.rag_service - ERROR - Error retrieving relevant content: Database not initialized. Call initialize() first.
+2025-06-03 13:56:27,344 - src.services.ai_service - INFO - Generated chat response for video youtube_eEg5ZjFxMmU
+2025-06-03 13:56:47,112 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 13:56:47,113 - src.core.database - ERROR - Failed to query embeddings: Database not initialized. Call initialize() first.
+2025-06-03 13:56:47,113 - src.services.rag_service - ERROR - Error retrieving relevant content: Database not initialized. Call initialize() first.
+2025-06-03 13:56:47,451 - src.services.ai_service - INFO - Generated chat response for video youtube_eEg5ZjFxMmU
+2025-06-03 13:57:45,614 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 13:57:45,615 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 13:57:45,615 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 13:57:45,615 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:57:52,861 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 13:57:52,861 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 13:57:52,861 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 13:57:52,861 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:57:53,068 - __mp_main__ - INFO - Chat routes loaded successfully
+2025-06-03 13:57:53,101 - main - INFO - Chat routes loaded successfully
+2025-06-03 13:58:25,526 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 13:58:25,527 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 13:58:25,527 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 13:58:25,527 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:58:39,537 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 13:58:39,538 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 13:58:39,538 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 13:58:39,538 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:59:06,437 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 13:59:06,437 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 13:59:06,437 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 13:59:06,437 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 13:59:33,848 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 13:59:33,849 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 13:59:33,849 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 13:59:33,849 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:00:04,013 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:00:04,013 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:00:04,013 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:00:04,013 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:01:02,441 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:01:02,441 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:01:02,441 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:01:02,441 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:01:03,461 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:01:03,462 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:01:03,462 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:01:03,462 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:01:03,716 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 14:01:03,988 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 14:01:20,244 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:01:20,244 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:01:20,244 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:01:20,245 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:05:15,307 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:05:15,307 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:05:15,307 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:05:15,307 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:05:37,413 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:05:37,413 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:05:37,413 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:05:37,414 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:06:04,894 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:06:04,894 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:06:04,894 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:06:04,895 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:06:15,988 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:06:15,988 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:06:15,988 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:06:15,988 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:06:27,114 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:06:27,114 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:06:27,114 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:06:27,114 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:06:35,559 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:06:35,559 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:06:35,559 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:06:35,560 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:06:45,106 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:06:45,106 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:06:45,106 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:06:45,107 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:07:06,079 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:07:06,080 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:07:06,080 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:07:06,080 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:07:58,627 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:07:58,627 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:07:58,627 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:07:58,627 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:08:00,556 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:08:00,556 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:08:00,556 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:08:00,556 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:08:19,652 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:08:19,652 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:08:19,652 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:08:19,652 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:13:30,563 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:13:30,563 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:13:30,564 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:13:30,564 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:13:45,950 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:13:45,950 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:13:45,950 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:13:45,950 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:13:58,076 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:13:58,076 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:13:58,076 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:13:58,077 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:13:58,077 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:13:58,077 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:13:58,077 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:13:58,077 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:14:10,125 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:14:10,125 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:14:10,126 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:14:10,126 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:14:23,741 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:14:23,742 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:14:23,742 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:14:23,742 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+odels
+2025-06-03 14:14:23,742 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:14:23,742 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:14:23,742 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:14:23,742 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:14:23,742 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:14:23,742 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:14:23,742 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:14:38,305 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:14:38,305 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:14:38,306 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:14:38,306 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:14:53,587 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:14:53,587 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:14:53,587 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:14:53,587 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:14:53,587 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:14:53,587 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:14:53,587 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:14:53,587 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:14:53,587 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:14:53,587 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:14:53,587 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:14:53,587 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:14:53,587 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:14:53,587 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:14:53,587 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:14:53,588 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:15:07,934 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:15:07,934 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:15:07,934 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:15:07,934 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:15:38,149 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:15:38,149 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:15:38,149 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:15:38,149 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:15:55,888 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:15:55,889 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:15:55,889 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:15:55,889 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:16:19,702 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:16:19,702 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:16:19,702 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:16:19,703 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:16:22,602 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:16:22,602 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:16:22,602 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:16:22,603 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:17:06,807 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:17:06,807 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:17:06,807 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:17:06,807 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:17:07,077 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 14:17:07,345 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 14:17:07,363 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 14:17:07,363 - src.main - INFO - System initialized successfully
+2025-06-03 14:17:37,076 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 14:17:39,956 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:17:39,956 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:17:39,956 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:17:39,956 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:17:40,151 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 14:17:40,364 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 14:17:40,376 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 14:17:40,376 - src.main - INFO - System initialized successfully
+2025-06-03 14:18:20,279 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 14:18:20,297 - src.services.rag_service - INFO - Retrieved 0 transcript chunks and 0 frames for query: What is this video about ?
+2025-06-03 14:18:20,761 - src.services.ai_service - INFO - Generated chat response for video youtube_eEg5ZjFxMmU
+2025-06-03 14:18:34,835 - src.core.database - INFO - Deleted embeddings for video: youtube_eEg5ZjFxMmU
+2025-06-03 14:18:34,835 - src.services.rag_service - INFO - Deleted index for video youtube_eEg5ZjFxMmU
+2025-06-03 14:18:45,285 - src.services.video_processor - INFO - Processed YouTube video: youtube_eEg5ZjFxMmU
+2025-06-03 14:18:45,286 - src.api.routes.videos - INFO - Processing transcript-only video youtube_eEg5ZjFxMmU
+2025-06-03 14:18:46,281 - src.services.video_processor - INFO - Extracted 850 transcript chunks for video youtube_eEg5ZjFxMmU
+2025-06-03 14:18:46,282 - src.services.video_processor - INFO - Generated 3 chapters from transcript for video youtube_eEg5ZjFxMmU
+2025-06-03 14:20:35,337 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:20:35,337 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:20:35,337 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:20:35,337 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:20:35,502 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 14:20:35,694 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 14:20:35,713 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 14:20:35,714 - src.main - INFO - System initialized successfully
+2025-06-03 14:20:37,805 - src.services.video_processor - INFO - Processed YouTube video: youtube_eEg5ZjFxMmU
+2025-06-03 14:20:37,805 - src.api.routes.videos - INFO - Processing transcript-only video youtube_eEg5ZjFxMmU
+2025-06-03 14:20:38,585 - src.services.video_processor - ERROR - Error extracting transcript: no element found: line 1, column 0
+2025-06-03 14:20:38,586 - src.services.video_processor - INFO - Generated 0 chapters from transcript for video youtube_eEg5ZjFxMmU
+2025-06-03 14:20:38,586 - src.services.rag_service - WARNING - No content to index for video youtube_eEg5ZjFxMmU
+2025-06-03 14:20:38,588 - src.services.video_processor - INFO - Cleaned up temp files for video youtube_eEg5ZjFxMmU
+2025-06-03 14:20:38,588 - src.api.routes.videos - INFO - Video youtube_eEg5ZjFxMmU processing completed successfully
+2025-06-03 14:20:39,972 - src.services.video_processor - INFO - Processed YouTube video: youtube_eEg5ZjFxMmU
+2025-06-03 14:20:39,973 - src.api.routes.videos - INFO - Processing transcript-only video youtube_eEg5ZjFxMmU
+2025-06-03 14:20:40,696 - src.services.video_processor - ERROR - Error extracting transcript: no element found: line 1, column 0
+2025-06-03 14:20:40,698 - src.services.video_processor - INFO - Generated 0 chapters from transcript for video youtube_eEg5ZjFxMmU
+2025-06-03 14:20:40,698 - src.services.rag_service - WARNING - No content to index for video youtube_eEg5ZjFxMmU
+2025-06-03 14:20:40,699 - src.services.video_processor - INFO - Cleaned up temp files for video youtube_eEg5ZjFxMmU
+2025-06-03 14:20:40,699 - src.api.routes.videos - INFO - Video youtube_eEg5ZjFxMmU processing completed successfully
+2025-06-03 14:20:42,200 - src.services.video_processor - INFO - Processed YouTube video: youtube_eEg5ZjFxMmU
+2025-06-03 14:20:42,200 - src.api.routes.videos - INFO - Processing transcript-only video youtube_eEg5ZjFxMmU
+2025-06-03 14:20:43,137 - src.services.video_processor - ERROR - Error extracting transcript: no element found: line 1, column 0
+2025-06-03 14:20:43,140 - src.services.video_processor - INFO - Generated 0 chapters from transcript for video youtube_eEg5ZjFxMmU
+2025-06-03 14:20:43,140 - src.services.rag_service - WARNING - No content to index for video youtube_eEg5ZjFxMmU
+2025-06-03 14:20:43,141 - src.services.video_processor - INFO - Cleaned up temp files for video youtube_eEg5ZjFxMmU
+2025-06-03 14:20:43,141 - src.api.routes.videos - INFO - Video youtube_eEg5ZjFxMmU processing completed successfully
+2025-06-03 14:20:44,775 - src.services.video_processor - INFO - Processed YouTube video: youtube_eEg5ZjFxMmU
+2025-06-03 14:20:44,776 - src.api.routes.videos - INFO - Processing transcript-only video youtube_eEg5ZjFxMmU
+2025-06-03 14:20:45,693 - src.services.video_processor - ERROR - Error extracting transcript: no element found: line 1, column 0
+2025-06-03 14:20:45,695 - src.services.video_processor - INFO - Generated 0 chapters from transcript for video youtube_eEg5ZjFxMmU
+2025-06-03 14:20:45,695 - src.services.rag_service - WARNING - No content to index for video youtube_eEg5ZjFxMmU
+2025-06-03 14:20:45,695 - src.services.video_processor - INFO - Cleaned up temp files for video youtube_eEg5ZjFxMmU
+2025-06-03 14:20:45,696 - src.api.routes.videos - INFO - Video youtube_eEg5ZjFxMmU processing completed successfully
+2025-06-03 14:21:05,380 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 14:21:05,409 - src.services.rag_service - INFO - Retrieved 0 transcript chunks and 0 frames for query: What is this video about?
+2025-06-03 14:21:05,878 - src.services.ai_service - INFO - Generated chat response for video youtube_eEg5ZjFxMmU
+2025-06-03 14:21:47,035 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 14:21:47,038 - src.services.rag_service - INFO - Retrieved 0 transcript chunks and 0 frames for query: summarize the video ?
+2025-06-03 14:21:47,424 - src.services.ai_service - INFO - Generated chat response for video youtube_eEg5ZjFxMmU
+2025-06-03 14:22:00,686 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 14:22:00,690 - src.services.rag_service - INFO - Retrieved 0 transcript chunks and 0 frames for query: I have provided the video already
+2025-06-03 14:22:01,055 - src.services.ai_service - INFO - Generated chat response for video youtube_eEg5ZjFxMmU
+2025-06-03 14:23:29,225 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 14:23:29,227 - src.services.rag_service - INFO - Retrieved 0 transcript chunks and 0 frames for query: What is this video about?
+2025-06-03 14:23:29,643 - src.services.ai_service - INFO - Generated chat response for video youtube_eEg5ZjFxMmU
+2025-06-03 14:23:29,730 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 14:23:33,857 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:23:33,857 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:23:33,857 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:23:33,857 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:23:34,083 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 14:23:34,275 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 14:23:34,302 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 14:23:34,302 - src.main - INFO - System initialized successfully
+2025-06-03 14:23:39,010 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 14:23:39,028 - src.services.rag_service - INFO - Retrieved 0 transcript chunks and 0 frames for query: https://www.youtube.com/watch?v=eEg5ZjFxMmU
+2025-06-03 14:23:39,527 - src.services.ai_service - INFO - Generated chat response for video youtube_eEg5ZjFxMmU
+2025-06-03 14:24:03,433 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 14:24:03,436 - src.services.rag_service - INFO - Retrieved 0 transcript chunks and 0 frames for query: You have to provide answers based on the transcript of the video?
+2025-06-03 14:24:03,793 - src.services.ai_service - INFO - Generated chat response for video youtube_eEg5ZjFxMmU
+2025-06-03 14:24:17,742 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 14:24:17,743 - src.services.rag_service - INFO - Retrieved 0 transcript chunks and 0 frames for query: What is this video about ?
+2025-06-03 14:24:18,099 - src.services.ai_service - INFO - Generated chat response for video youtube_eEg5ZjFxMmU
+2025-06-03 14:24:25,385 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 14:24:25,386 - src.services.rag_service - INFO - Retrieved 0 transcript chunks and 0 frames for query: https://www.youtube.com/watch?v=eEg5ZjFxMmU
+2025-06-03 14:24:25,955 - src.services.ai_service - INFO - Generated chat response for video youtube_eEg5ZjFxMmU
+2025-06-03 14:24:49,704 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 14:24:49,704 - src.services.rag_service - INFO - Retrieved 0 transcript chunks and 0 frames for query: This video about ?
+2025-06-03 14:24:50,101 - src.services.ai_service - INFO - Generated chat response for video youtube_eEg5ZjFxMmU
+2025-06-03 14:25:49,113 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 14:25:52,969 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:25:52,970 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:25:52,970 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:25:52,970 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:25:53,196 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 14:25:53,398 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 14:25:53,416 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 14:25:53,417 - src.main - INFO - System initialized successfully
+2025-06-03 14:25:53,417 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 14:25:55,637 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:25:55,637 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:25:55,637 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:25:55,637 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:25:55,810 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 14:25:56,002 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 14:25:56,022 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 14:25:56,023 - src.main - INFO - System initialized successfully
+2025-06-03 14:26:00,297 - src.services.video_processor - INFO - Processed YouTube video: youtube_eEg5ZjFxMmU
+2025-06-03 14:26:00,297 - src.api.routes.videos - INFO - Processing transcript-only video youtube_eEg5ZjFxMmU
+2025-06-03 14:26:01,033 - src.services.video_processor - ERROR - Error extracting transcript: no element found: line 1, column 0
+2025-06-03 14:26:01,035 - src.services.video_processor - INFO - Generated 0 chapters from transcript for video youtube_eEg5ZjFxMmU
+2025-06-03 14:26:01,035 - src.services.rag_service - WARNING - No content to index for video youtube_eEg5ZjFxMmU
+2025-06-03 14:26:01,035 - src.services.video_processor - INFO - Cleaned up temp files for video youtube_eEg5ZjFxMmU
+2025-06-03 14:26:01,035 - src.api.routes.videos - INFO - Video youtube_eEg5ZjFxMmU processing completed successfully
+2025-06-03 14:26:09,227 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 14:26:09,255 - src.services.rag_service - INFO - Retrieved 0 transcript chunks and 0 frames for query: What is this video about ?
+2025-06-03 14:26:09,628 - src.services.ai_service - INFO - Generated chat response for video youtube_eEg5ZjFxMmU
+2025-06-03 14:26:57,429 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 14:27:01,582 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:27:01,582 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:27:01,582 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:27:01,582 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:27:01,787 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 14:27:01,986 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 14:27:02,006 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 14:27:02,006 - src.main - INFO - System initialized successfully
+2025-06-03 14:27:02,006 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 14:27:04,180 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:27:04,180 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:27:04,180 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:27:04,180 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:27:04,344 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 14:27:04,527 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 14:27:04,546 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 14:27:04,546 - src.main - INFO - System initialized successfully
+2025-06-03 14:27:12,164 - src.core.database - INFO - Deleted embeddings for video: youtube_eEg5ZjFxMmU
+2025-06-03 14:27:12,164 - src.services.rag_service - INFO - Deleted index for video youtube_eEg5ZjFxMmU
+2025-06-03 14:27:18,346 - src.services.video_processor - INFO - Processed YouTube video: youtube_eEg5ZjFxMmU
+2025-06-03 14:27:18,347 - src.api.routes.videos - INFO - Processing transcript-only video youtube_eEg5ZjFxMmU
+2025-06-03 14:27:19,231 - src.services.video_processor - INFO - Extracted 850 transcript chunks for video youtube_eEg5ZjFxMmU
+2025-06-03 14:27:19,232 - src.services.video_processor - INFO - Generated 3 chapters from transcript for video youtube_eEg5ZjFxMmU
+2025-06-03 14:29:36,719 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:29:36,719 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:29:36,719 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:29:36,719 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:29:36,890 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 14:29:37,081 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 14:29:37,102 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 14:29:37,102 - src.main - INFO - System initialized successfully
+2025-06-03 14:29:47,186 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 14:29:47,208 - src.services.rag_service - INFO - Retrieved 0 transcript chunks and 0 frames for query: What is this video about?
+2025-06-03 14:29:47,562 - src.services.ai_service - INFO - Generated chat response for video youtube_eEg5ZjFxMmU
+2025-06-03 14:30:41,584 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 14:30:45,649 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:30:45,650 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:30:45,650 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:30:45,650 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:30:45,880 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 14:30:46,076 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 14:30:46,085 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 14:30:46,085 - src.main - INFO - System initialized successfully
+2025-06-03 14:30:46,086 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 14:30:48,163 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:30:48,164 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:30:48,164 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:30:48,164 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:30:48,333 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 14:30:48,518 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 14:30:48,536 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 14:30:48,536 - src.main - INFO - System initialized successfully
+2025-06-03 14:30:54,137 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 14:30:54,153 - src.services.rag_service - INFO - Retrieved 0 transcript chunks and 0 frames for query: What is this video about?
+2025-06-03 14:30:54,577 - src.services.ai_service - INFO - Generated chat response for video youtube_eEg5ZjFxMmU
+2025-06-03 14:31:56,239 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 14:32:00,054 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:32:00,054 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:32:00,054 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:32:00,054 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:32:00,268 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 14:32:00,484 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 14:32:00,498 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 14:32:00,498 - src.main - INFO - System initialized successfully
+2025-06-03 14:32:09,715 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_eEg5ZjFxMmU, Message: What is this video about?
+2025-06-03 14:32:09,716 - src.api.routes.chat - ERROR - MESSAGE endpoint debug error: 'RAGService' object has no attribute 'get_stats'
+2025-06-03 14:32:10,308 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 14:32:10,341 - src.services.rag_service - INFO - Retrieved 0 transcript chunks and 0 frames for query: What is this video about?
+2025-06-03 14:32:10,342 - src.api.routes.chat - INFO - MESSAGE endpoint - Context received: {'transcript_chunks': [], 'frames': [], 'formatted_context': 'No relevant context found.'}
+2025-06-03 14:32:10,781 - src.services.ai_service - INFO - Generated chat response for video youtube_eEg5ZjFxMmU
+2025-06-03 14:32:10,781 - src.api.routes.chat - INFO - MESSAGE endpoint - AI response: No video content was provided.  Therefore, I cannot answer what the video is about.
+
+2025-06-03 14:32:46,474 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 14:32:50,691 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:32:50,691 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:32:50,691 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:32:50,691 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:32:50,908 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 14:32:51,107 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 14:32:51,124 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 14:32:51,124 - src.main - INFO - System initialized successfully
+2025-06-03 14:32:51,125 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 14:32:53,303 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:32:53,303 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:32:53,303 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:32:53,303 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:32:53,475 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 14:32:53,701 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 14:32:53,711 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 14:32:53,712 - src.main - INFO - System initialized successfully
+2025-06-03 14:33:05,641 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_eEg5ZjFxMmU, Message: What is this video about?
+2025-06-03 14:33:05,642 - src.api.routes.chat - ERROR - MESSAGE endpoint debug error: 'RAGService' object has no attribute 'get_stats'
+2025-06-03 14:33:05,958 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 14:33:05,987 - src.services.rag_service - INFO - Retrieved 0 transcript chunks and 0 frames for query: What is this video about?
+2025-06-03 14:33:05,987 - src.api.routes.chat - INFO - MESSAGE endpoint - Context type: <class 'dict'>
+2025-06-03 14:33:05,987 - src.api.routes.chat - INFO - MESSAGE endpoint - Context keys: dict_keys(['transcript_chunks', 'frames', 'formatted_context'])
+2025-06-03 14:33:05,987 - src.api.routes.chat - INFO - MESSAGE endpoint - Transcript chunks: 0
+2025-06-03 14:33:05,988 - src.api.routes.chat - INFO - MESSAGE endpoint - Frames: 0
+2025-06-03 14:33:05,988 - src.api.routes.chat - INFO - MESSAGE endpoint - Calling AI service with 0 transcript chunks
+2025-06-03 14:33:06,584 - src.services.ai_service - INFO - Generated chat response for video youtube_eEg5ZjFxMmU
+2025-06-03 14:33:06,585 - src.api.routes.chat - INFO - MESSAGE endpoint - AI response: Please provide the video information. I need the video content to answer the user's question.
+
+2025-06-03 14:37:21,868 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 14:37:26,634 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 14:37:26,635 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 14:37:26,635 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 14:37:26,635 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 14:37:26,879 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 14:37:27,194 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 14:37:27,205 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 14:37:27,206 - src.main - INFO - System initialized successfully
+2025-06-03 14:53:43,078 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 18:06:09,150 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 18:06:09,150 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 18:06:09,151 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 18:06:09,151 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 18:06:09,445 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 18:06:09,742 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 18:06:09,754 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 18:06:09,754 - src.main - INFO - System initialized successfully
+2025-06-03 18:07:59,869 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_eEg5ZjFxMmU, Message: What is this video about?
+2025-06-03 18:07:59,878 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 0
+2025-06-03 18:07:59,878 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: []
+2025-06-03 18:09:36,043 - src.core.database - INFO - Deleted embeddings for video: youtube_eEg5ZjFxMmU
+2025-06-03 18:09:36,044 - src.services.rag_service - INFO - Deleted index for video youtube_eEg5ZjFxMmU
+2025-06-03 18:09:40,053 - src.services.video_processor - INFO - Processed YouTube video: youtube_eEg5ZjFxMmU
+2025-06-03 18:09:40,056 - src.api.routes.videos - INFO - Processing transcript-only video youtube_eEg5ZjFxMmU
+2025-06-03 18:09:40,939 - src.services.video_processor - INFO - Extracted 850 transcript chunks for video youtube_eEg5ZjFxMmU
+2025-06-03 18:09:40,940 - src.services.video_processor - INFO - Generated 3 chapters from transcript for video youtube_eEg5ZjFxMmU
+2025-06-03 18:12:21,410 - src.services.ai_service - INFO - Generated embeddings for 850 texts
+2025-06-03 18:12:22,153 - src.core.database - INFO - Added 850 embeddings to collection
+2025-06-03 18:12:22,154 - src.services.rag_service - INFO - Indexed 850 content pieces for video youtube_eEg5ZjFxMmU
+2025-06-03 18:12:23,196 - src.services.ai_service - INFO - Generated video summary
+2025-06-03 18:12:23,196 - src.services.video_processor - INFO - Cleaned up temp files for video youtube_eEg5ZjFxMmU
+2025-06-03 18:12:23,197 - src.api.routes.videos - INFO - Video youtube_eEg5ZjFxMmU processing completed successfully
+2025-06-03 18:12:25,086 - src.services.video_processor - INFO - Processed YouTube video: youtube_eEg5ZjFxMmU
+2025-06-03 18:12:25,086 - src.api.routes.videos - INFO - Processing transcript-only video youtube_eEg5ZjFxMmU
+2025-06-03 18:12:26,115 - src.services.video_processor - INFO - Extracted 850 transcript chunks for video youtube_eEg5ZjFxMmU
+2025-06-03 18:12:26,115 - src.services.video_processor - INFO - Generated 3 chapters from transcript for video youtube_eEg5ZjFxMmU
+2025-06-03 18:15:04,913 - src.services.ai_service - INFO - Generated embeddings for 850 texts
+2025-06-03 18:15:05,489 - src.core.database - INFO - Added 850 embeddings to collection
+2025-06-03 18:15:05,490 - src.services.rag_service - INFO - Indexed 850 content pieces for video youtube_eEg5ZjFxMmU
+2025-06-03 18:15:06,544 - src.services.ai_service - INFO - Generated video summary
+2025-06-03 18:15:06,545 - src.services.video_processor - INFO - Cleaned up temp files for video youtube_eEg5ZjFxMmU
+2025-06-03 18:15:06,545 - src.api.routes.videos - INFO - Video youtube_eEg5ZjFxMmU processing completed successfully
+2025-06-03 18:16:12,262 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_eEg5ZjFxMmU, Message: What is this video about?
+2025-06-03 18:16:12,291 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 850
+2025-06-03 18:16:12,291 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: ['youtube_eEg5ZjFxMmU']
+2025-06-03 18:16:12,302 - src.api.routes.chat - INFO - MESSAGE endpoint - Found 10 documents
+2025-06-03 18:16:12,303 - src.api.routes.chat - INFO - MESSAGE endpoint - Content length: 184
+2025-06-03 18:16:31,311 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 18:16:31,345 - src.services.rag_service - ERROR - Error searching similar content: 3 validation errors for SearchResult
+id
+  Field required [type=missing, input_value={'video_id': 'youtube_eEg...one, 'frame_path': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+score
+  Field required [type=missing, input_value={'video_id': 'youtube_eEg...one, 'frame_path': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+type
+  Field required [type=missing, input_value={'video_id': 'youtube_eEg...one, 'frame_path': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-06-03 18:16:42,749 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 18:16:42,762 - src.services.rag_service - ERROR - Error searching similar content: 3 validation errors for SearchResult
+id
+  Field required [type=missing, input_value={'video_id': 'youtube_eEg...one, 'frame_path': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+score
+  Field required [type=missing, input_value={'video_id': 'youtube_eEg...one, 'frame_path': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+type
+  Field required [type=missing, input_value={'video_id': 'youtube_eEg...one, 'frame_path': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-06-03 18:16:53,055 - src.api.routes.chat - INFO - CHAT endpoint called - Video ID: youtube_eEg5ZjFxMmU, Message: Does the person in the video mention making a million dollars?
+2025-06-03 18:16:53,067 - src.api.routes.chat - INFO - CHAT endpoint - Total embeddings: 850
+2025-06-03 18:16:53,067 - src.api.routes.chat - INFO - CHAT endpoint - Available videos: 1
+2025-06-03 18:16:53,079 - src.api.routes.chat - INFO - Video youtube_eEg5ZjFxMmU stats: {'video_id': 'youtube_eEg5ZjFxMmU', 'transcript_chunks': 850, 'frame_descriptions': 0, 'total_content': 850}
+2025-06-03 18:16:53,079 - src.api.routes.chat - INFO - Querying RAG service with video_id: youtube_eEg5ZjFxMmU
+2025-06-03 18:16:53,089 - src.api.routes.chat - INFO - DEBUG: Found 5 documents in collection
+2025-06-03 18:16:53,089 - src.api.routes.chat - INFO - DEBUG: Sample document IDs: ['youtube_eEg5ZjFxMmU_transcript_0', 'youtube_eEg5ZjFxMmU_transcript_1', 'youtube_eEg5ZjFxMmU_transcript_2']
+2025-06-03 18:16:53,089 - src.api.routes.chat - INFO - DEBUG: Sample content: Excuse me, sir. Sir, question for you.
+2025-06-03 18:16:53,281 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 18:16:53,282 - src.services.rag_service - INFO - Filtering search to video_id: youtube_eEg5ZjFxMmU
+2025-06-03 18:16:53,294 - src.services.rag_service - INFO - ChromaDB search returned 10 results
+2025-06-03 18:16:53,295 - src.services.rag_service - ERROR - RAG query error: 3 validation errors for SearchResult
+id
+  Field required [type=missing, input_value={'content': "haven't made... 'youtube_eEg5ZjFxMmU'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+score
+  Field required [type=missing, input_value={'content': "haven't made... 'youtube_eEg5ZjFxMmU'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+type
+  Field required [type=missing, input_value={'content': "haven't made... 'youtube_eEg5ZjFxMmU'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-06-03 18:16:53,295 - src.api.routes.chat - ERROR - Query processing error: Failed to process query: 3 validation errors for SearchResult
+id
+  Field required [type=missing, input_value={'content': "haven't made... 'youtube_eEg5ZjFxMmU'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+score
+  Field required [type=missing, input_value={'content': "haven't made... 'youtube_eEg5ZjFxMmU'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+type
+  Field required [type=missing, input_value={'content': "haven't made... 'youtube_eEg5ZjFxMmU'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+Traceback (most recent call last):
+  File "D:\Head Starter\MultiModelVideo\src\services\rag_service.py", line 646, in query
+    source = SearchResult(
+             ^^^^^^^^^^^^^
+  File "C:\Users\patel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pydantic\main.py", line 164, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for SearchResult
+id
+  Field required [type=missing, input_value={'content': "haven't made... 'youtube_eEg5ZjFxMmU'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+score
+  Field required [type=missing, input_value={'content': "haven't made... 'youtube_eEg5ZjFxMmU'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+type
+  Field required [type=missing, input_value={'content': "haven't made... 'youtube_eEg5ZjFxMmU'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Head Starter\MultiModelVideo\src\api\routes\chat.py", line 255, in chat_with_video
+    result = await rag_service_instance.query(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Head Starter\MultiModelVideo\src\services\rag_service.py", line 677, in query
+    raise Exception(f"Failed to process query: {str(e)}")
+Exception: Failed to process query: 3 validation errors for SearchResult
+id
+  Field required [type=missing, input_value={'content': "haven't made... 'youtube_eEg5ZjFxMmU'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+score
+  Field required [type=missing, input_value={'content': "haven't made... 'youtube_eEg5ZjFxMmU'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+type
+  Field required [type=missing, input_value={'content': "haven't made... 'youtube_eEg5ZjFxMmU'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-06-03 18:17:18,708 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_eEg5ZjFxMmU, Message: Does the person in the video mention making a million dollars?
+2025-06-03 18:17:18,719 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 850
+2025-06-03 18:17:18,721 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: ['youtube_eEg5ZjFxMmU']
+2025-06-03 18:17:18,721 - src.api.routes.chat - INFO - MESSAGE endpoint - Found 10 documents
+2025-06-03 18:17:18,722 - src.api.routes.chat - INFO - MESSAGE endpoint - Content length: 184
+2025-06-03 18:17:18,905 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 18:17:18,917 - src.services.rag_service - INFO - Retrieved 5 transcript chunks and 0 frames for query: Does the person in the video mention making a million dollars?
+2025-06-03 18:17:18,918 - src.api.routes.chat - INFO - MESSAGE endpoint - Context type: <class 'dict'>
+2025-06-03 18:17:18,918 - src.api.routes.chat - INFO - MESSAGE endpoint - Context keys: dict_keys(['transcript_chunks', 'frames', 'formatted_context'])
+2025-06-03 18:17:18,918 - src.api.routes.chat - INFO - MESSAGE endpoint - Transcript chunks: 5
+2025-06-03 18:17:18,918 - src.api.routes.chat - INFO - MESSAGE endpoint - Frames: 0
+2025-06-03 18:17:18,918 - src.api.routes.chat - INFO - MESSAGE endpoint - Calling AI service with 5 transcript chunks
+2025-06-03 18:17:19,543 - src.services.ai_service - INFO - Generated chat response for video youtube_eEg5ZjFxMmU
+2025-06-03 18:17:19,545 - src.api.routes.chat - INFO - MESSAGE endpoint - AI response: Yes, the person in the video repeatedly mentions making a million dollars, questioning whether others have achieved this milestone.  This is evident at timestamps [00:08], [01:36], [12:47], [02:56], and [03:16].
+
+2025-06-03 18:18:04,842 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_eEg5ZjFxMmU, Message: What is this video about ?
+2025-06-03 18:18:04,866 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 850
+2025-06-03 18:18:04,866 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: ['youtube_eEg5ZjFxMmU']
+2025-06-03 18:18:04,868 - src.api.routes.chat - INFO - MESSAGE endpoint - Found 10 documents
+2025-06-03 18:18:04,868 - src.api.routes.chat - INFO - MESSAGE endpoint - Content length: 184
+2025-06-03 18:18:18,058 - src.core.database - INFO - Deleted embeddings for video: youtube_eEg5ZjFxMmU
+2025-06-03 18:18:18,058 - src.services.rag_service - INFO - Deleted index for video youtube_eEg5ZjFxMmU
+2025-06-03 18:18:40,574 - src.services.video_processor - INFO - Processed YouTube video: youtube_pPxnfq6L4xg
+2025-06-03 18:18:40,577 - src.api.routes.videos - INFO - Processing transcript-only video youtube_pPxnfq6L4xg
+2025-06-03 18:18:41,701 - src.services.video_processor - INFO - Generated 0 chapters from transcript for video youtube_pPxnfq6L4xg
+2025-06-03 18:18:41,702 - src.services.rag_service - WARNING - No content to index for video youtube_pPxnfq6L4xg
+2025-06-03 18:18:41,703 - src.services.video_processor - INFO - Cleaned up temp files for video youtube_pPxnfq6L4xg
+2025-06-03 18:18:41,704 - src.api.routes.videos - INFO - Video youtube_pPxnfq6L4xg processing completed successfully
+2025-06-03 18:18:58,104 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_pPxnfq6L4xg, Message: What is this video about ?
+2025-06-03 18:18:58,106 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 0
+2025-06-03 18:18:58,106 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: []
+2025-06-03 18:19:05,824 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_pPxnfq6L4xg, Message: What is this video about?
+2025-06-03 18:19:05,825 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 0
+2025-06-03 18:19:05,825 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: []
+2025-06-03 18:21:11,742 - src.core.database - INFO - Deleted embeddings for video: youtube_pPxnfq6L4xg
+2025-06-03 18:21:11,743 - src.services.rag_service - INFO - Deleted index for video youtube_pPxnfq6L4xg
+2025-06-03 18:21:43,065 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 18:21:48,538 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 18:21:48,539 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 18:21:48,539 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 18:21:48,539 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 18:21:48,765 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 18:21:49,128 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 18:21:49,146 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 18:21:49,146 - src.main - INFO - System initialized successfully
+2025-06-03 18:22:29,412 - src.services.video_processor - INFO - Processed YouTube video: youtube_LSuSb7NFUT8
+2025-06-03 18:22:29,412 - src.api.routes.videos - INFO - Processing transcript-only video youtube_LSuSb7NFUT8
+2025-06-03 18:22:30,372 - src.services.video_processor - INFO - Extracted 1944 transcript chunks for video youtube_LSuSb7NFUT8
+2025-06-03 18:22:30,373 - src.services.video_processor - INFO - Generated 3 chapters from transcript for video youtube_LSuSb7NFUT8
+2025-06-03 18:31:57,010 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 18:31:57,010 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 18:31:57,010 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 18:31:57,010 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 18:31:57,186 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 18:31:57,397 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 18:31:57,416 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 18:31:57,416 - src.main - INFO - System initialized successfully
+2025-06-03 18:36:25,911 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 18:36:27,927 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 18:36:27,927 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 18:36:27,927 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 18:36:27,928 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 18:36:28,109 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 18:36:28,315 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 18:36:28,324 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 18:36:28,325 - src.main - INFO - System initialized successfully
+2025-06-03 18:36:37,887 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_LSuSb7NFUT8, Message: What is this video about ?
+2025-06-03 18:36:37,899 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 0
+2025-06-03 18:36:37,899 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: []
+2025-06-03 18:36:44,022 - src.core.database - INFO - Deleted embeddings for video: youtube_LSuSb7NFUT8
+2025-06-03 18:36:44,022 - src.services.rag_service - INFO - Deleted index for video youtube_LSuSb7NFUT8
+2025-06-03 18:36:52,467 - src.services.video_processor - INFO - Processed YouTube video: youtube_eEg5ZjFxMmU
+2025-06-03 18:36:52,468 - src.api.routes.videos - INFO - Processing transcript-only video youtube_eEg5ZjFxMmU
+2025-06-03 18:36:53,212 - src.services.video_processor - ERROR - Error extracting transcript: no element found: line 1, column 0
+2025-06-03 18:36:53,214 - src.services.video_processor - INFO - Generated 0 chapters from transcript for video youtube_eEg5ZjFxMmU
+2025-06-03 18:36:53,215 - src.services.rag_service - WARNING - No content to index for video youtube_eEg5ZjFxMmU
+2025-06-03 18:36:53,215 - src.services.video_processor - INFO - Cleaned up temp files for video youtube_eEg5ZjFxMmU
+2025-06-03 18:36:53,215 - src.api.routes.videos - INFO - Video youtube_eEg5ZjFxMmU processing completed successfully
+2025-06-03 18:37:01,506 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_eEg5ZjFxMmU, Message: What is this video about ?
+2025-06-03 18:37:01,507 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 0
+2025-06-03 18:37:01,507 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: []
+2025-06-03 18:37:25,054 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_eEg5ZjFxMmU, Message: Tell me about the video ?
+2025-06-03 18:37:25,056 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 0
+2025-06-03 18:37:25,056 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: []
+2025-06-03 18:43:32,401 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 18:43:34,786 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 18:43:34,786 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 18:43:34,786 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 18:43:34,786 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 18:43:35,041 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 18:43:35,300 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 18:43:35,313 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 18:43:35,313 - src.main - INFO - System initialized successfully
+2025-06-03 18:43:35,314 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 18:43:37,763 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 18:43:37,764 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 18:43:37,764 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 18:43:37,764 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 18:43:37,949 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 18:43:38,174 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 18:43:38,184 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 18:43:38,185 - src.main - INFO - System initialized successfully
+2025-06-03 18:44:08,033 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 18:44:10,109 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 18:44:10,109 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 18:44:10,109 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 18:44:10,110 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 18:44:10,370 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 18:44:10,685 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 18:44:10,698 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 18:44:10,699 - src.main - INFO - System initialized successfully
+2025-06-03 18:57:40,240 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 18:57:40,241 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 18:57:40,241 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 18:57:40,241 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 18:57:40,432 - __main__ - INFO - Chat routes loaded successfully
+2025-06-03 18:57:40,433 - __main__ - INFO - Starting AI-Powered Video Analysis System...
+2025-06-03 18:57:42,054 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 18:57:42,054 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 18:57:42,054 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 18:57:42,054 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 18:57:42,241 - __mp_main__ - INFO - Chat routes loaded successfully
+2025-06-03 18:57:42,291 - main - INFO - Chat routes loaded successfully
+2025-06-03 18:57:44,261 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 21:59:25,316 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 21:59:25,318 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 21:59:25,319 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 21:59:25,319 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 21:59:25,690 - __main__ - INFO - Chat routes loaded successfully
+2025-06-03 21:59:25,691 - __main__ - INFO - Starting AI-Powered Video Analysis System...
+2025-06-03 21:59:28,102 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 21:59:28,103 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 21:59:28,104 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 21:59:28,105 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 21:59:28,580 - __mp_main__ - INFO - Chat routes loaded successfully
+2025-06-03 21:59:28,645 - main - INFO - Chat routes loaded successfully
+2025-06-03 21:59:38,291 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_eEg5ZjFxMmU, Message: What is this video about ?
+2025-06-03 21:59:38,291 - src.api.routes.chat - WARNING - DEBUG: ChromaDB collection is None
+2025-06-03 21:59:38,291 - src.core.database - ERROR - Failed to get database stats: Database not initialized. Call initialize() first.
+2025-06-03 21:59:39,035 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 21:59:39,051 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 21:59:39,067 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 0
+2025-06-03 21:59:39,067 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: []
+2025-06-03 22:01:24,677 - src.services.video_processor - ERROR - Error processing YouTube video: [0;31mERROR:[0m [youtube] eA8wlfEKJSk: Video unavailable
+2025-06-03 22:01:24,678 - src.api.routes.videos - ERROR - Error processing YouTube video: [0;31mERROR:[0m [youtube] eA8wlfEKJSk: Video unavailable
+2025-06-03 22:01:35,027 - src.services.video_processor - ERROR - Error processing YouTube video: [0;31mERROR:[0m [youtube] PrhVjFIBkHc: Video unavailable
+2025-06-03 22:01:35,027 - src.api.routes.videos - ERROR - Error processing YouTube video: [0;31mERROR:[0m [youtube] PrhVjFIBkHc: Video unavailable
+2025-06-03 22:01:52,126 - src.services.video_processor - ERROR - Error processing YouTube video: [0;31mERROR:[0m [youtube] 6wMuYgv3yfI: Video unavailable
+2025-06-03 22:01:52,126 - src.api.routes.videos - ERROR - Error processing YouTube video: [0;31mERROR:[0m [youtube] 6wMuYgv3yfI: Video unavailable
+2025-06-03 22:02:22,438 - src.services.video_processor - INFO - Processed YouTube video: youtube_UxxajLWwzqY
+2025-06-03 22:02:22,439 - src.api.routes.videos - INFO - Processing transcript-only video youtube_UxxajLWwzqY
+2025-06-03 22:02:23,295 - src.services.video_processor - ERROR - Error extracting transcript: no element found: line 1, column 0
+2025-06-03 22:02:23,297 - src.services.video_processor - INFO - Generated 0 chapters from transcript for video youtube_UxxajLWwzqY
+2025-06-03 22:02:23,297 - src.services.rag_service - WARNING - No content to index for video youtube_UxxajLWwzqY
+2025-06-03 22:02:23,311 - src.api.routes.videos - INFO - Updated metadata for video youtube_UxxajLWwzqY with completed status
+2025-06-03 22:02:23,311 - src.services.video_processor - INFO - Cleaned up temp files for video youtube_UxxajLWwzqY
+2025-06-03 22:02:23,311 - src.api.routes.videos - INFO - Video youtube_UxxajLWwzqY processing completed successfully
+2025-06-03 22:03:42,967 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_UxxajLWwzqY, Message: What is this video about?
+2025-06-03 22:03:42,969 - src.api.routes.chat - INFO - DEBUG: Collection has 0 total documents
+2025-06-03 22:03:42,970 - src.api.routes.chat - INFO - DEBUG: Found 0 documents for video_id 'youtube_UxxajLWwzqY'
+2025-06-03 22:03:42,970 - src.api.routes.chat - INFO - DEBUG: Unique video_ids in collection: []
+2025-06-03 22:03:42,971 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 0
+2025-06-03 22:03:42,971 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: []
+2025-06-03 22:07:36,520 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 22:07:36,521 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 22:07:36,521 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 22:07:36,522 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 22:07:36,789 - __mp_main__ - INFO - Chat routes loaded successfully
+2025-06-03 22:07:36,840 - main - INFO - Chat routes loaded successfully
+2025-06-03 22:08:10,425 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 22:08:10,426 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 22:08:10,426 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 22:08:10,426 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 22:08:10,661 - __mp_main__ - INFO - Chat routes loaded successfully
+2025-06-03 22:08:10,701 - main - INFO - Chat routes loaded successfully
+2025-06-03 22:14:19,689 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 22:14:19,689 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 22:14:19,689 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 22:14:19,689 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 22:14:19,889 - __mp_main__ - INFO - Chat routes loaded successfully
+2025-06-03 22:14:19,924 - main - INFO - Chat routes loaded successfully
+2025-06-03 22:14:28,336 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 22:14:28,336 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 22:14:28,336 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 22:14:28,336 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 22:14:56,599 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 22:14:56,599 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 22:14:56,599 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 22:14:56,599 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 22:14:56,775 - src.services.video_processor - INFO - Extracting transcript for YouTube video ID: UxxajLWwzqY
+2025-06-03 22:14:56,775 - src.services.video_processor - INFO - Trying strategy: English transcript
+2025-06-03 22:14:57,767 - src.services.video_processor - INFO - Successfully got transcript using English transcript: 39 entries
+2025-06-03 22:14:57,768 - src.services.video_processor - INFO - Successfully extracted 39 transcript chunks for video youtube_UxxajLWwzqY
+2025-06-03 22:15:18,197 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_PrhVjFIBkHc, Message: What is this video about ?
+2025-06-03 22:15:18,197 - src.api.routes.chat - WARNING - DEBUG: ChromaDB collection is None
+2025-06-03 22:15:18,198 - src.core.database - ERROR - Failed to get database stats: Database not initialized. Call initialize() first.
+2025-06-03 22:15:18,614 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 22:15:18,628 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 22:15:18,643 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 0
+2025-06-03 22:15:18,644 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: []
+2025-06-03 22:15:25,584 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_6wMuYgv3yfI, Message: What is this video about ?
+2025-06-03 22:15:25,595 - src.api.routes.chat - INFO - DEBUG: Collection has 0 total documents
+2025-06-03 22:15:25,596 - src.api.routes.chat - INFO - DEBUG: Found 0 documents for video_id 'youtube_6wMuYgv3yfI'
+2025-06-03 22:15:25,596 - src.api.routes.chat - INFO - DEBUG: Unique video_ids in collection: []
+2025-06-03 22:15:25,597 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 0
+2025-06-03 22:15:25,597 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: []
+2025-06-03 22:15:30,751 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_eA8wlfEKJSk, Message: What is this video about ?
+2025-06-03 22:15:30,751 - src.api.routes.chat - INFO - DEBUG: Collection has 0 total documents
+2025-06-03 22:15:30,753 - src.api.routes.chat - INFO - DEBUG: Found 0 documents for video_id 'youtube_eA8wlfEKJSk'
+2025-06-03 22:15:30,753 - src.api.routes.chat - INFO - DEBUG: Unique video_ids in collection: []
+2025-06-03 22:15:30,754 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 0
+2025-06-03 22:15:30,754 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: []
+2025-06-03 22:15:37,217 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_UxxajLWwzqY, Message: What is this video about ?
+2025-06-03 22:15:37,218 - src.api.routes.chat - INFO - DEBUG: Collection has 0 total documents
+2025-06-03 22:15:37,219 - src.api.routes.chat - INFO - DEBUG: Found 0 documents for video_id 'youtube_UxxajLWwzqY'
+2025-06-03 22:15:37,219 - src.api.routes.chat - INFO - DEBUG: Unique video_ids in collection: []
+2025-06-03 22:15:37,220 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 0
+2025-06-03 22:15:37,220 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: []
+2025-06-03 22:15:40,982 - src.core.database - INFO - Deleted embeddings for video: youtube_PrhVjFIBkHc
+2025-06-03 22:15:40,983 - src.services.rag_service - INFO - Deleted index for video youtube_PrhVjFIBkHc
+2025-06-03 22:15:43,121 - src.core.database - INFO - Deleted embeddings for video: youtube_UxxajLWwzqY
+2025-06-03 22:15:43,122 - src.services.rag_service - INFO - Deleted index for video youtube_UxxajLWwzqY
+2025-06-03 22:15:46,623 - src.core.database - INFO - Deleted embeddings for video: youtube_eA8wlfEKJSk
+2025-06-03 22:15:46,624 - src.services.rag_service - INFO - Deleted index for video youtube_eA8wlfEKJSk
+2025-06-03 22:15:48,339 - src.core.database - INFO - Deleted embeddings for video: youtube_eEg5ZjFxMmU
+2025-06-03 22:15:48,339 - src.services.rag_service - INFO - Deleted index for video youtube_eEg5ZjFxMmU
+2025-06-03 22:15:50,513 - src.core.database - INFO - Deleted embeddings for video: youtube_6wMuYgv3yfI
+2025-06-03 22:15:50,513 - src.services.rag_service - INFO - Deleted index for video youtube_6wMuYgv3yfI
+2025-06-03 22:16:09,171 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 22:16:09,171 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 22:16:09,171 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 22:16:09,173 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 22:16:09,324 - src.services.video_processor - INFO - Extracting transcript for YouTube video ID: UxxajLWwzqY
+2025-06-03 22:16:09,324 - src.services.video_processor - INFO - Trying strategy: English transcript
+2025-06-03 22:16:10,464 - src.services.video_processor - WARNING - XML parsing error with English transcript: no element found: line 1, column 0. Trying next strategy
+2025-06-03 22:16:10,465 - src.services.video_processor - INFO - Trying strategy: Any available transcript
+2025-06-03 22:16:11,408 - src.services.video_processor - INFO - Found translatable transcript in English (auto-generated)
+2025-06-03 22:16:11,547 - src.services.video_processor - WARNING - Error getting available transcript: no element found: line 1, column 0
+2025-06-03 22:16:11,547 - src.services.video_processor - WARNING - XML parsing error with Any available transcript: no element found: line 1, column 0. Trying next strategy
+2025-06-03 22:16:11,548 - src.services.video_processor - INFO - Trying strategy: Auto-generated transcript
+2025-06-03 22:16:11,550 - src.services.video_processor - INFO - Trying auto-generated transcript in en
+2025-06-03 22:16:12,876 - src.services.video_processor - INFO - Successfully got transcript using Auto-generated transcript: 39 entries
+2025-06-03 22:16:12,876 - src.services.video_processor - INFO - Successfully extracted 39 transcript chunks for video youtube_UxxajLWwzqY
+2025-06-03 22:16:22,697 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 22:16:22,697 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 22:16:22,697 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 22:16:22,697 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 22:16:22,906 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 22:16:23,165 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 22:16:23,187 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 22:16:23,187 - src.main - INFO - System initialized successfully
+2025-06-03 22:17:09,872 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 22:17:09,872 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 22:17:09,872 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 22:17:09,873 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 22:17:10,134 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 22:17:10,383 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 22:17:10,404 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 22:17:10,404 - src.main - INFO - System initialized successfully
+2025-06-03 22:17:20,947 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyCcY_...
+2025-06-03 22:17:20,947 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyCcY_...Wn8pU
+2025-06-03 22:17:20,948 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 22:17:20,948 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 22:17:21,142 - __mp_main__ - INFO - Chat routes loaded successfully
+2025-06-03 22:17:21,177 - main - INFO - Chat routes loaded successfully
+2025-06-03 22:17:42,155 - src.services.video_processor - INFO - Processed YouTube video: youtube_qhnJDDX2hhU
+2025-06-03 22:17:42,158 - src.api.routes.videos - INFO - Processing transcript-only video youtube_qhnJDDX2hhU
+2025-06-03 22:17:42,158 - src.services.video_processor - INFO - Extracting transcript for YouTube video ID: qhnJDDX2hhU
+2025-06-03 22:17:42,158 - src.services.video_processor - INFO - Trying strategy: English transcript
+2025-06-03 22:17:43,196 - src.services.video_processor - WARNING - XML parsing error with English transcript: no element found: line 1, column 0. Trying next strategy
+2025-06-03 22:17:43,197 - src.services.video_processor - INFO - Trying strategy: Any available transcript
+2025-06-03 22:17:43,909 - src.services.video_processor - INFO - Found translatable transcript in English (auto-generated)
+2025-06-03 22:17:44,081 - src.services.video_processor - INFO - Successfully got transcript using Any available transcript: 1 entries
+2025-06-03 22:17:44,081 - src.services.video_processor - INFO - Successfully extracted 1 transcript chunks for video youtube_qhnJDDX2hhU
+2025-06-03 22:17:44,082 - src.services.video_processor - INFO - Generated 1 chapters from transcript for video youtube_qhnJDDX2hhU
+2025-06-03 22:17:44,558 - src.services.ai_service - ERROR - Error generating text embeddings: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 22:17:44,559 - src.core.database - ERROR - Failed to add embeddings: Database not initialized. Call initialize() first.
+2025-06-03 22:17:44,559 - src.services.rag_service - ERROR - Error indexing video content: Database not initialized. Call initialize() first.
+2025-06-03 22:17:44,634 - src.services.ai_service - ERROR - API request failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 22:17:44,635 - src.services.ai_service - ERROR - Error generating summary: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 22:17:44,663 - src.api.routes.videos - INFO - Updated metadata for video youtube_qhnJDDX2hhU with completed status
+2025-06-03 22:17:44,663 - src.services.video_processor - INFO - Cleaned up temp files for video youtube_qhnJDDX2hhU
+2025-06-03 22:17:44,664 - src.api.routes.videos - INFO - Video youtube_qhnJDDX2hhU processing completed successfully
+2025-06-03 22:17:54,057 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_qhnJDDX2hhU, Message: What is this video about?
+2025-06-03 22:17:54,057 - src.api.routes.chat - WARNING - DEBUG: ChromaDB collection is None
+2025-06-03 22:17:54,057 - src.core.database - ERROR - Failed to get database stats: Database not initialized. Call initialize() first.
+2025-06-03 22:17:54,377 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 22:17:54,391 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 22:17:54,405 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 0
+2025-06-03 22:17:54,406 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: []
+2025-06-03 22:18:59,429 - src.services.video_processor - INFO - Processed YouTube video: youtube_UxxajLWwzqY
+2025-06-03 22:18:59,430 - src.api.routes.videos - INFO - Processing transcript-only video youtube_UxxajLWwzqY
+2025-06-03 22:18:59,431 - src.services.video_processor - INFO - Extracting transcript for YouTube video ID: UxxajLWwzqY
+2025-06-03 22:18:59,431 - src.services.video_processor - INFO - Trying strategy: English transcript
+2025-06-03 22:19:00,400 - src.services.video_processor - WARNING - XML parsing error with English transcript: no element found: line 1, column 0. Trying next strategy
+2025-06-03 22:19:00,402 - src.services.video_processor - INFO - Trying strategy: Any available transcript
+2025-06-03 22:19:01,548 - src.services.video_processor - INFO - Found translatable transcript in English (auto-generated)
+2025-06-03 22:19:01,647 - src.services.video_processor - INFO - Successfully got transcript using Any available transcript: 1 entries
+2025-06-03 22:19:01,647 - src.services.video_processor - INFO - Successfully extracted 1 transcript chunks for video youtube_UxxajLWwzqY
+2025-06-03 22:19:01,648 - src.services.video_processor - INFO - Generated 1 chapters from transcript for video youtube_UxxajLWwzqY
+2025-06-03 22:19:01,708 - src.services.ai_service - ERROR - Error generating text embeddings: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 22:19:01,910 - src.core.database - ERROR - Failed to add embeddings: Embedding dimension 384 does not match collection dimensionality 768
+2025-06-03 22:19:01,910 - src.services.rag_service - ERROR - Error indexing video content: Embedding dimension 384 does not match collection dimensionality 768
+2025-06-03 22:19:01,961 - src.services.ai_service - ERROR - API request failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 22:19:01,962 - src.services.ai_service - ERROR - Error generating summary: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-06-03 22:19:01,972 - src.api.routes.videos - INFO - Updated metadata for video youtube_UxxajLWwzqY with completed status
+2025-06-03 22:19:01,972 - src.services.video_processor - INFO - Cleaned up temp files for video youtube_UxxajLWwzqY
+2025-06-03 22:19:01,973 - src.api.routes.videos - INFO - Video youtube_UxxajLWwzqY processing completed successfully
+2025-06-03 22:19:26,144 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 22:19:29,686 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 22:19:50,581 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyA2_l...
+2025-06-03 22:19:50,581 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyA2_l...4UjvY
+2025-06-03 22:19:50,581 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 22:19:50,581 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 22:19:50,776 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 22:19:51,003 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 22:19:51,022 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 22:19:51,022 - src.main - INFO - System initialized successfully
+2025-06-03 22:20:07,497 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyA2_l...
+2025-06-03 22:20:07,497 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyA2_l...4UjvY
+2025-06-03 22:20:07,499 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 22:20:07,499 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 22:20:07,654 - src.services.video_processor - INFO - Extracting transcript for YouTube video ID: UxxajLWwzqY
+2025-06-03 22:20:07,655 - src.services.video_processor - INFO - Trying strategy: English transcript
+2025-06-03 22:20:08,654 - src.services.video_processor - WARNING - XML parsing error with English transcript: no element found: line 1, column 0. Trying next strategy
+2025-06-03 22:20:08,655 - src.services.video_processor - INFO - Trying strategy: Any available transcript
+2025-06-03 22:20:10,236 - src.services.video_processor - INFO - Found translatable transcript in English (auto-generated)
+2025-06-03 22:20:10,335 - src.services.video_processor - INFO - Successfully got transcript using Any available transcript: 1 entries
+2025-06-03 22:20:10,336 - src.services.video_processor - INFO - Successfully extracted 1 transcript chunks for video youtube_UxxajLWwzqY
+2025-06-03 22:23:38,750 - src.main - INFO - Shutting down AI Video Analysis System...
+2025-06-03 22:23:41,229 - src.services.ai_service - INFO - Method 1 - Direct env var: AIzaSyA2_l...
+2025-06-03 22:23:41,229 - src.services.ai_service - INFO - Using Gemini API key: AIzaSyA2_l...4UjvY
+2025-06-03 22:23:41,229 - src.services.ai_service - INFO - API key validation successful - can list models
+2025-06-03 22:23:41,229 - src.services.ai_service - INFO - Gemini AI models initialized successfully
+2025-06-03 22:23:41,459 - src.main - INFO - Starting AI Video Analysis System...
+2025-06-03 22:23:41,713 - src.core.database - INFO - ChromaDB client initialized at: data/chromadb
+2025-06-03 22:23:41,732 - src.core.database - INFO - ChromaDB initialized with collection: video_embeddings
+2025-06-03 22:23:41,733 - src.main - INFO - System initialized successfully
+2025-06-03 22:24:01,183 - src.services.video_processor - INFO - Processed YouTube video: youtube_UxxajLWwzqY
+2025-06-03 22:24:01,184 - src.api.routes.videos - INFO - Processing transcript-only video youtube_UxxajLWwzqY
+2025-06-03 22:24:01,184 - src.services.video_processor - INFO - Extracting transcript for YouTube video ID: UxxajLWwzqY
+2025-06-03 22:24:01,185 - src.services.video_processor - INFO - Trying strategy: English transcript
+2025-06-03 22:24:02,366 - src.services.video_processor - WARNING - XML parsing error with English transcript: no element found: line 1, column 0. Trying next strategy
+2025-06-03 22:24:02,367 - src.services.video_processor - INFO - Trying strategy: Any available transcript
+2025-06-03 22:24:03,274 - src.services.video_processor - INFO - Found translatable transcript in English (auto-generated)
+2025-06-03 22:24:03,373 - src.services.video_processor - INFO - Successfully got transcript using Any available transcript: 1 entries
+2025-06-03 22:24:03,373 - src.services.video_processor - INFO - Successfully extracted 1 transcript chunks for video youtube_UxxajLWwzqY
+2025-06-03 22:24:03,374 - src.services.video_processor - INFO - Generated 1 chapters from transcript for video youtube_UxxajLWwzqY
+2025-06-03 22:24:03,708 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 22:24:03,969 - src.core.database - INFO - Added 1 embeddings to collection
+2025-06-03 22:24:03,969 - src.services.rag_service - INFO - Indexed 1 content pieces for video youtube_UxxajLWwzqY
+2025-06-03 22:24:05,114 - src.services.ai_service - INFO - Generated video summary
+2025-06-03 22:24:05,133 - src.api.routes.videos - INFO - Updated metadata for video youtube_UxxajLWwzqY with completed status
+2025-06-03 22:24:05,133 - src.services.video_processor - INFO - Cleaned up temp files for video youtube_UxxajLWwzqY
+2025-06-03 22:24:05,134 - src.api.routes.videos - INFO - Video youtube_UxxajLWwzqY processing completed successfully
+2025-06-03 22:24:28,420 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_UxxajLWwzqY, Message: What is this video about?
+2025-06-03 22:24:28,431 - src.api.routes.chat - INFO - DEBUG: Collection has 1 total documents
+2025-06-03 22:24:28,431 - src.api.routes.chat - INFO - DEBUG: Found 1 documents for video_id 'youtube_UxxajLWwzqY'
+2025-06-03 22:24:28,431 - src.api.routes.chat - INFO - DEBUG: Unique video_ids in collection: ['youtube_UxxajLWwzqY']
+2025-06-03 22:24:28,431 - src.api.routes.chat - INFO - DEBUG: Sample document - ID: youtube_UxxajLWwzqY_transcript_0, Metadata: {'chunk_id': 'youtube_UxxajLWwzqY_transcript_0', 'content_type': 'transcript', 'end_time': 18.269, 'start_time': 14.5, 'video_id': 'youtube_UxxajLWwzqY'}
+2025-06-03 22:24:28,441 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 1
+2025-06-03 22:24:28,441 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: ['youtube_UxxajLWwzqY']
+2025-06-03 22:24:28,451 - src.api.routes.chat - INFO - MESSAGE endpoint - Found 1 documents
+2025-06-03 22:24:28,451 - src.api.routes.chat - INFO - MESSAGE endpoint - Content length: 1341
+2025-06-03 22:25:04,239 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_qhnJDDX2hhU, Message: What is this video about?
+2025-06-03 22:25:04,240 - src.api.routes.chat - INFO - DEBUG: Collection has 0 total documents
+2025-06-03 22:25:04,241 - src.api.routes.chat - INFO - DEBUG: Found 0 documents for video_id 'youtube_qhnJDDX2hhU'
+2025-06-03 22:25:04,241 - src.api.routes.chat - INFO - DEBUG: Unique video_ids in collection: []
+2025-06-03 22:25:04,242 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 1
+2025-06-03 22:25:04,242 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: ['youtube_UxxajLWwzqY']
+2025-06-03 22:25:07,101 - src.core.database - INFO - Deleted embeddings for video: youtube_UxxajLWwzqY
+2025-06-03 22:25:07,102 - src.services.rag_service - INFO - Deleted index for video youtube_UxxajLWwzqY
+2025-06-03 22:25:09,309 - src.core.database - INFO - Deleted embeddings for video: youtube_qhnJDDX2hhU
+2025-06-03 22:25:09,309 - src.services.rag_service - INFO - Deleted index for video youtube_qhnJDDX2hhU
+2025-06-03 22:25:13,369 - src.services.video_processor - INFO - Processed YouTube video: youtube_UxxajLWwzqY
+2025-06-03 22:25:13,369 - src.api.routes.videos - INFO - Processing transcript-only video youtube_UxxajLWwzqY
+2025-06-03 22:25:13,371 - src.services.video_processor - INFO - Extracting transcript for YouTube video ID: UxxajLWwzqY
+2025-06-03 22:25:13,371 - src.services.video_processor - INFO - Trying strategy: English transcript
+2025-06-03 22:25:14,535 - src.services.video_processor - WARNING - XML parsing error with English transcript: no element found: line 1, column 0. Trying next strategy
+2025-06-03 22:25:14,537 - src.services.video_processor - INFO - Trying strategy: Any available transcript
+2025-06-03 22:25:15,389 - src.services.video_processor - INFO - Found translatable transcript in English (auto-generated)
+2025-06-03 22:25:15,526 - src.services.video_processor - INFO - Successfully got transcript using Any available transcript: 1 entries
+2025-06-03 22:25:15,527 - src.services.video_processor - INFO - Successfully extracted 1 transcript chunks for video youtube_UxxajLWwzqY
+2025-06-03 22:25:15,527 - src.services.video_processor - INFO - Generated 1 chapters from transcript for video youtube_UxxajLWwzqY
+2025-06-03 22:25:15,734 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 22:25:15,746 - src.core.database - INFO - Added 1 embeddings to collection
+2025-06-03 22:25:15,746 - src.services.rag_service - INFO - Indexed 1 content pieces for video youtube_UxxajLWwzqY
+2025-06-03 22:25:16,869 - src.services.ai_service - INFO - Generated video summary
+2025-06-03 22:25:16,881 - src.api.routes.videos - INFO - Updated metadata for video youtube_UxxajLWwzqY with completed status
+2025-06-03 22:25:16,881 - src.services.video_processor - INFO - Cleaned up temp files for video youtube_UxxajLWwzqY
+2025-06-03 22:25:16,881 - src.api.routes.videos - INFO - Video youtube_UxxajLWwzqY processing completed successfully
+2025-06-03 22:25:24,251 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_UxxajLWwzqY, Message: What is this video about?
+2025-06-03 22:25:24,252 - src.api.routes.chat - INFO - DEBUG: Collection has 1 total documents
+2025-06-03 22:25:24,252 - src.api.routes.chat - INFO - DEBUG: Found 1 documents for video_id 'youtube_UxxajLWwzqY'
+2025-06-03 22:25:24,252 - src.api.routes.chat - INFO - DEBUG: Unique video_ids in collection: ['youtube_UxxajLWwzqY']
+2025-06-03 22:25:24,252 - src.api.routes.chat - INFO - DEBUG: Sample document - ID: youtube_UxxajLWwzqY_transcript_0, Metadata: {'chunk_id': 'youtube_UxxajLWwzqY_transcript_0', 'content_type': 'transcript', 'end_time': 18.269, 'start_time': 14.5, 'video_id': 'youtube_UxxajLWwzqY'}
+2025-06-03 22:25:24,253 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 1
+2025-06-03 22:25:24,253 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: ['youtube_UxxajLWwzqY']
+2025-06-03 22:25:24,253 - src.api.routes.chat - INFO - MESSAGE endpoint - Found 1 documents
+2025-06-03 22:25:24,254 - src.api.routes.chat - INFO - MESSAGE endpoint - Content length: 1341
+2025-06-03 22:25:34,557 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_UxxajLWwzqY, Message: Summarize the video content?
+2025-06-03 22:25:34,558 - src.api.routes.chat - INFO - DEBUG: Collection has 1 total documents
+2025-06-03 22:25:34,559 - src.api.routes.chat - INFO - DEBUG: Found 1 documents for video_id 'youtube_UxxajLWwzqY'
+2025-06-03 22:25:34,559 - src.api.routes.chat - INFO - DEBUG: Unique video_ids in collection: ['youtube_UxxajLWwzqY']
+2025-06-03 22:25:34,559 - src.api.routes.chat - INFO - DEBUG: Sample document - ID: youtube_UxxajLWwzqY_transcript_0, Metadata: {'chunk_id': 'youtube_UxxajLWwzqY_transcript_0', 'content_type': 'transcript', 'end_time': 18.269, 'start_time': 14.5, 'video_id': 'youtube_UxxajLWwzqY'}
+2025-06-03 22:25:34,560 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 1
+2025-06-03 22:25:34,560 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: ['youtube_UxxajLWwzqY']
+2025-06-03 22:25:34,560 - src.api.routes.chat - INFO - MESSAGE endpoint - Found 1 documents
+2025-06-03 22:25:34,560 - src.api.routes.chat - INFO - MESSAGE endpoint - Content length: 1341
+2025-06-03 22:25:34,763 - src.services.ai_service - INFO - Generated embeddings for 1 texts
+2025-06-03 22:25:34,787 - src.services.rag_service - INFO - Retrieved 1 transcript chunks and 0 frames for query: Summarize the video content?
+2025-06-03 22:25:34,788 - src.api.routes.chat - INFO - MESSAGE endpoint - Context type: <class 'dict'>
+2025-06-03 22:25:34,788 - src.api.routes.chat - INFO - MESSAGE endpoint - Context keys: dict_keys(['transcript_chunks', 'frames', 'formatted_context'])
+2025-06-03 22:25:34,788 - src.api.routes.chat - INFO - MESSAGE endpoint - Transcript chunks: 1
+2025-06-03 22:25:34,788 - src.api.routes.chat - INFO - MESSAGE endpoint - Frames: 0
+2025-06-03 22:25:34,788 - src.api.routes.chat - INFO - MESSAGE endpoint - Calling AI service with 1 transcript chunks
+2025-06-03 22:25:36,528 - src.services.ai_service - INFO - Generated chat response for video youtube_UxxajLWwzqY
+2025-06-03 22:25:36,528 - src.api.routes.chat - INFO - MESSAGE endpoint - AI response: The video appears to be a music video with a repetitive lyric structure.  The lyrics, partially obscured by gaps represented by "[ __ ]" at [00:14.5s-00:18.3s] and onward, describe a feeling on a summer day after a breakup,  actions involving crashing a car into a bridge (or possibly a GPS), throwing something (indicated by "[ __ ]") into a bag and down the stairs, and a contrast between the singer's feelings and the relationship dynamic.  The singer repeatedly states "I don't care, I love it," [00:14.5s-00:18.3s] suggesting a defiant or emotionally complex response. There are mentions of being in the Milky Way while the other person is "on a different road" and generational differences ("70s" vs. "90s [ __ ]") [00:14.5s-00:18.3s].  The lyrics are largely repetitive throughout the excerpt.
+
+2025-06-03 22:28:25,530 - src.services.video_processor - INFO - Processed YouTube video: youtube_MZZLRFKziP0
+2025-06-03 22:28:25,531 - src.api.routes.videos - INFO - Processing transcript-only video youtube_MZZLRFKziP0
+2025-06-03 22:28:25,531 - src.services.video_processor - INFO - Extracting transcript for YouTube video ID: MZZLRFKziP0
+2025-06-03 22:28:25,532 - src.services.video_processor - INFO - Trying strategy: English transcript
+2025-06-03 22:28:26,393 - src.services.video_processor - INFO - English transcript not found, trying next strategy
+2025-06-03 22:28:26,393 - src.services.video_processor - INFO - Trying strategy: Any available transcript
+2025-06-03 22:28:27,041 - src.services.video_processor - INFO - Found translatable transcript in Hindi (auto-generated)
+2025-06-03 22:28:27,134 - src.services.video_processor - WARNING - Error getting available transcript: no element found: line 1, column 0
+2025-06-03 22:28:27,135 - src.services.video_processor - WARNING - XML parsing error with Any available transcript: no element found: line 1, column 0. Trying next strategy
+2025-06-03 22:28:27,135 - src.services.video_processor - INFO - Trying strategy: Auto-generated transcript
+2025-06-03 22:28:27,136 - src.services.video_processor - INFO - Trying auto-generated transcript in en
+2025-06-03 22:28:27,976 - src.services.video_processor - INFO - Trying auto-generated transcript in en-US
+2025-06-03 22:28:29,001 - src.services.video_processor - INFO - Trying auto-generated transcript in en-GB
+2025-06-03 22:28:29,979 - src.services.video_processor - INFO - Trying auto-generated transcript in es
+2025-06-03 22:28:30,772 - src.services.video_processor - INFO - Trying auto-generated transcript in fr
+2025-06-03 22:28:31,764 - src.services.video_processor - INFO - Trying auto-generated transcript in de
+2025-06-03 22:28:32,566 - src.services.video_processor - INFO - Trying auto-generated transcript in pt
+2025-06-03 22:28:33,258 - src.services.video_processor - INFO - Trying auto-generated transcript in it
+2025-06-03 22:28:34,073 - src.services.video_processor - INFO - Trying auto-generated transcript in ja
+2025-06-03 22:28:34,862 - src.services.video_processor - INFO - Trying auto-generated transcript in ko
+2025-06-03 22:28:35,675 - src.services.video_processor - INFO - Trying auto-generated transcript in zh
+2025-06-03 22:28:36,650 - src.services.video_processor - INFO - Trying auto-generated transcript in hi
+2025-06-03 22:28:37,682 - src.services.video_processor - INFO - Successfully got transcript using Auto-generated transcript: 468 entries
+2025-06-03 22:28:37,683 - src.services.video_processor - INFO - Successfully extracted 468 transcript chunks for video youtube_MZZLRFKziP0
+2025-06-03 22:28:37,684 - src.services.video_processor - INFO - Generated 3 chapters from transcript for video youtube_MZZLRFKziP0
+2025-06-03 22:30:03,323 - src.services.ai_service - INFO - Generated embeddings for 468 texts
+2025-06-03 22:30:03,627 - src.core.database - INFO - Added 468 embeddings to collection
+2025-06-03 22:30:03,628 - src.services.rag_service - INFO - Indexed 468 content pieces for video youtube_MZZLRFKziP0
+2025-06-03 22:30:04,713 - src.services.ai_service - INFO - Generated video summary
+2025-06-03 22:30:04,735 - src.api.routes.videos - INFO - Updated metadata for video youtube_MZZLRFKziP0 with completed status
+2025-06-03 22:30:04,735 - src.services.video_processor - INFO - Cleaned up temp files for video youtube_MZZLRFKziP0
+2025-06-03 22:30:04,735 - src.api.routes.videos - INFO - Video youtube_MZZLRFKziP0 processing completed successfully
+2025-06-03 22:30:04,763 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_UxxajLWwzqY, Message: Summarize this video about ?
+2025-06-03 22:30:04,764 - src.api.routes.chat - INFO - DEBUG: Collection has 1 total documents
+2025-06-03 22:30:04,764 - src.api.routes.chat - INFO - DEBUG: Found 1 documents for video_id 'youtube_UxxajLWwzqY'
+2025-06-03 22:30:04,766 - src.api.routes.chat - INFO - DEBUG: Unique video_ids in collection: ['youtube_UxxajLWwzqY']
+2025-06-03 22:30:04,766 - src.api.routes.chat - INFO - DEBUG: Sample document - ID: youtube_UxxajLWwzqY_transcript_0, Metadata: {'chunk_id': 'youtube_UxxajLWwzqY_transcript_0', 'content_type': 'transcript', 'end_time': 18.269, 'start_time': 14.5, 'video_id': 'youtube_UxxajLWwzqY'}
+2025-06-03 22:30:04,776 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 469
+2025-06-03 22:30:04,777 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: ['youtube_UxxajLWwzqY', 'youtube_MZZLRFKziP0']
+2025-06-03 22:30:04,778 - src.api.routes.chat - INFO - MESSAGE endpoint - Found 1 documents
+2025-06-03 22:30:04,778 - src.api.routes.chat - INFO - MESSAGE endpoint - Content length: 1341
+2025-06-03 22:30:04,826 - src.core.database - INFO - Deleted embeddings for video: youtube_UxxajLWwzqY
+2025-06-03 22:30:04,826 - src.services.rag_service - INFO - Deleted index for video youtube_UxxajLWwzqY
+2025-06-03 22:30:43,782 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_MZZLRFKziP0, Message: What is this video about ?
+2025-06-03 22:30:43,791 - src.api.routes.chat - INFO - DEBUG: Collection has 468 total documents
+2025-06-03 22:30:43,791 - src.api.routes.chat - INFO - DEBUG: Found 468 documents for video_id 'youtube_MZZLRFKziP0'
+2025-06-03 22:30:43,792 - src.api.routes.chat - INFO - DEBUG: Unique video_ids in collection: ['youtube_MZZLRFKziP0']
+2025-06-03 22:30:43,792 - src.api.routes.chat - INFO - DEBUG: Sample document - ID: youtube_MZZLRFKziP0_transcript_0, Metadata: {'chunk_id': 'youtube_MZZLRFKziP0_transcript_0', 'content_type': 'transcript', 'end_time': 8.8, 'start_time': 1.19, 'video_id': 'youtube_MZZLRFKziP0'}
+2025-06-03 22:30:43,800 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 468
+2025-06-03 22:30:43,801 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: ['youtube_MZZLRFKziP0']
+2025-06-03 22:30:43,802 - src.api.routes.chat - INFO - MESSAGE endpoint - Found 10 documents
+2025-06-03 22:30:43,803 - src.api.routes.chat - INFO - MESSAGE endpoint - Content length: 167
+2025-06-03 22:32:36,543 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_UxxajLWwzqY, Message: Tell me about the lyrics in this video - what is the main theme?
+2025-06-03 22:32:36,544 - src.api.routes.chat - INFO - DEBUG: Collection has 0 total documents
+2025-06-03 22:32:36,545 - src.api.routes.chat - INFO - DEBUG: Found 0 documents for video_id 'youtube_UxxajLWwzqY'
+2025-06-03 22:32:36,545 - src.api.routes.chat - INFO - DEBUG: Unique video_ids in collection: []
+2025-06-03 22:32:36,552 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 468
+2025-06-03 22:32:36,552 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: ['youtube_MZZLRFKziP0']
+2025-06-03 22:32:46,050 - src.api.routes.chat - INFO - MESSAGE endpoint called - Video ID: youtube_MZZLRFKziP0, Message: What is this video about?
+2025-06-03 22:32:46,057 - src.api.routes.chat - INFO - DEBUG: Collection has 468 total documents
+2025-06-03 22:32:46,057 - src.api.routes.chat - INFO - DEBUG: Found 468 documents for video_id 'youtube_MZZLRFKziP0'
+2025-06-03 22:32:46,058 - src.api.routes.chat - INFO - DEBUG: Unique video_ids in collection: ['youtube_MZZLRFKziP0']
+2025-06-03 22:32:46,058 - src.api.routes.chat - INFO - DEBUG: Sample document - ID: youtube_MZZLRFKziP0_transcript_0, Metadata: {'chunk_id': 'youtube_MZZLRFKziP0_transcript_0', 'content_type': 'transcript', 'end_time': 8.8, 'start_time': 1.19, 'video_id': 'youtube_MZZLRFKziP0'}
+2025-06-03 22:32:46,066 - src.api.routes.chat - INFO - MESSAGE endpoint - Total embeddings: 468
+2025-06-03 22:32:46,066 - src.api.routes.chat - INFO - MESSAGE endpoint - Available videos: ['youtube_MZZLRFKziP0']
+2025-06-03 22:32:46,068 - src.api.routes.chat - INFO - MESSAGE endpoint - Found 10 documents
+2025-06-03 22:32:46,068 - src.api.routes.chat - INFO - MESSAGE endpoint - Content length: 167
+2025-06-03 22:38:05,615 - src.main - INFO - Shutting down AI Video Analysis System...

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Video Analysis System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .video-card {
+            transition: transform 0.2s;
+        }
+        .video-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .progress-bar {
+            transition: width 0.5s ease;
+        }
+        .chat-container {
+            height: 400px;
+            overflow-y: auto;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+        }
+        .message {
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .user-message {
+            background-color: #007bff;
+            color: white;
+            text-align: right;
+        }
+        .assistant-message {
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .drop-zone {
+            border: 2px dashed #ccc;
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+            transition: border-color 0.3s;
+        }
+        .drop-zone:hover {
+            border-color: #007bff;
+        }
+        .drop-zone.dragover {
+            border-color: #007bff;
+            background-color: #f0f8ff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-video"></i> AI Video Analysis
+            </a>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <!-- Upload Section -->
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5><i class="fas fa-upload"></i> Upload Video</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="drop-zone" id="dropZone">
+                            <i class="fas fa-cloud-upload-alt fa-3x text-muted mb-3"></i>
+                            <p>Drag & drop video files here or click to browse</p>
+                            <input type="file" id="videoFile" accept="video/*" style="display: none;">
+                            <button class="btn btn-primary" onclick="document.getElementById('videoFile').click()">
+                                Choose File
+                            </button>
+                        </div>
+                        <div class="mt-3">
+                            <input type="text" class="form-control" id="videoTitle" placeholder="Video title (optional)">
+                        </div>
+                        <button class="btn btn-success mt-2 w-100" onclick="uploadVideo()" id="uploadBtn">
+                            <i class="fas fa-upload"></i> Upload & Process
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5><i class="fab fa-youtube"></i> YouTube Video</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <input type="url" class="form-control" id="youtubeUrl" placeholder="YouTube URL">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="youtubeTitle" placeholder="Custom title (optional)">
+                        </div>
+                        <button class="btn btn-danger w-100" onclick="processYouTube()">
+                            <i class="fab fa-youtube"></i> Process YouTube Video
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video List -->
+        <div class="card mb-4">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5><i class="fas fa-list"></i> Videos</h5>
+                <button class="btn btn-sm btn-outline-primary" onclick="loadVideos()">
+                    <i class="fas fa-refresh"></i> Refresh
+                </button>
+            </div>
+            <div class="card-body">
+                <div id="videosList" class="row">
+                    <!-- Videos will be loaded here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Section -->
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-comments"></i> Chat with Video</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="chat-container" id="chatContainer">
+                            <div class="message assistant-message">
+                                Welcome! Upload a video or process a YouTube video, then ask me questions about it.
+                            </div>
+                        </div>
+                        <div class="input-group mt-3">
+                            <input type="text" class="form-control" id="chatInput" placeholder="Ask about the video...">
+                            <button class="btn btn-primary" onclick="sendMessage()">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <select class="form-select" id="selectedVideo">
+                            <option value="">Select a video to chat about</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quota Monitor - AI Video Analysis System</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .quota-meter {
+            background: linear-gradient(to right, #10b981 0%, #f59e0b 70%, #ef4444 90%);
+            height: 8px;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .quota-fill {
+            height: 100%;
+            background: rgba(255, 255, 255, 0.3);
+            transition: width 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-6">
+        <!-- Header -->
+        <header class="bg-white rounded-lg shadow-sm p-6 mb-6">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h1 class="text-3xl font-bold text-gray-800 mb-2">
+                        <i class="fas fa-chart-line text-blue-600 mr-3"></i>
+                        Quota Monitor
+                    </h1>
+                    <p class="text-gray-600">Monitor API usage and quota limits in real-time</p>
+                </div>
+                <div class="flex space-x-4">
+                    <button id="refreshBtn" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                        <i class="fas fa-sync-alt mr-2"></i>Refresh
+                    </button>
+                    <button id="resetBtn" class="px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">
+                        <i class="fas fa-undo mr-2"></i>Reset Status
+                    </button>
+                    <a href="/" class="px-4 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors">
+                        <i class="fas fa-arrow-left mr-2"></i>Back to App
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Status Alert -->
+        <div id="statusAlert" class="hidden mb-6">
+            <div class="bg-red-50 border border-red-200 rounded-lg p-4">
+                <div class="flex items-center">
+                    <i class="fas fa-exclamation-triangle text-red-600 mr-3"></i>
+                    <div>
+                        <h3 class="text-red-800 font-medium">Quota Exceeded</h3>
+                        <p class="text-red-600 text-sm mt-1">API quota limits have been exceeded. Some features may be unavailable.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Dashboard -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <!-- Current Usage -->
+            <div class="bg-white rounded-lg shadow-sm p-6">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">
+                    <i class="fas fa-tachometer-alt text-green-600 mr-2"></i>
+                    Current Usage
+                </h2>
+
+                <!-- Requests per Minute -->
+                <div class="mb-6">
+                    <div class="flex justify-between items-center mb-2">
+                        <span class="text-sm font-medium text-gray-700">Requests per Minute</span>
+                        <span id="minuteRequestsText" class="text-sm text-gray-600">0 / 10</span>
+                    </div>
+                    <div class="quota-meter">
+                        <div id="minuteRequestsFill" class="quota-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+
+                <!-- Requests per Day -->
+                <div class="mb-6">
+                    <div class="flex justify-between items-center mb-2">
+                        <span class="text-sm font-medium text-gray-700">Requests per Day</span>
+                        <span id="dayRequestsText" class="text-sm text-gray-600">0 / 1500</span>
+                    </div>
+                    <div class="quota-meter">
+                        <div id="dayRequestsFill" class="quota-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+
+                <!-- Tokens per Minute -->
+                <div class="mb-4">
+                    <div class="flex justify-between items-center mb-2">
+                        <span class="text-sm font-medium text-gray-700">Tokens per Minute</span>
+                        <span id="tokensText" class="text-sm text-gray-600">0 / 25000</span>
+                    </div>
+                    <div class="quota-meter">
+                        <div id="tokensFill" class="quota-fill" style="width: 0%"></div>
+                    </div>
+                </div>            </div>
+
+            <!-- Queue Status -->
+            <div class="bg-white rounded-lg shadow-sm p-6">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">
+                    <i class="fas fa-list text-purple-600 mr-2"></i>
+                    Request Queue Status
+                </h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <div class="flex items-center justify-between">
+                            <span class="text-gray-700">Queue Length</span>
+                            <span id="queueLength" class="text-xl font-bold text-purple-600">0</span>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <div class="flex items-center justify-between">
+                            <span class="text-gray-700">Processing Strategy</span>
+                            <span id="currentStrategy" class="text-sm font-semibold text-blue-600">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="queueDetails" class="space-y-2">
+                    <!-- Queue items will be populated here -->
+                </div>
+
+                <div class="mt-4 flex space-x-2">
+                    <button onclick="switchStrategy('conservative')" class="px-3 py-1 bg-blue-100 text-blue-800 rounded text-sm hover:bg-blue-200">
+                        Conservative
+                    </button>
+                    <button onclick="switchStrategy('batch')" class="px-3 py-1 bg-green-100 text-green-800 rounded text-sm hover:bg-green-200">
+                        Batch
+                    </button>
+                    <button onclick="switchStrategy('emergency')" class="px-3 py-1 bg-red-100 text-red-800 rounded text-sm hover:bg-red-200">
+                        Emergency
+                    </button>
+                </div>
+            </div>
+
+            <!-- Queue Monitoring Section -->
+            <div class="bg-white rounded-lg shadow-sm p-6">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">
+                    <i class="fas fa-tasks text-indigo-600 mr-2"></i>
+                    Queue Monitoring
+                </h2>
+                
+                <!-- Queue Stats -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-4">
+                    <div class="bg-indigo-50 p-3 rounded-lg text-center">
+                        <div class="text-3xl font-bold text-indigo-700 mb-1" id="totalRequests">0</div>
+                        <div class="text-xs text-indigo-600">TOTAL REQUESTS</div>
+                    </div>
+                    <div class="bg-green-50 p-3 rounded-lg text-center">
+                        <div class="text-3xl font-bold text-green-700 mb-1" id="processedRequests">0</div>
+                        <div class="text-xs text-green-600">PROCESSED</div>
+                    </div>
+                    <div class="bg-yellow-50 p-3 rounded-lg text-center">
+                        <div class="text-3xl font-bold text-yellow-700 mb-1" id="pendingRequests">0</div>
+                        <div class="text-xs text-yellow-600">PENDING</div>
+                    </div>
+                </div>
+                
+                <!-- Processing Rate -->
+                <div class="mb-4">
+                    <div class="flex justify-between items-center mb-1">
+                        <span class="text-sm font-medium text-gray-700">Processing Rate</span>
+                        <span id="processingRate" class="text-sm text-gray-600">0 req/min</span>
+                    </div>
+                    <div class="h-2 w-full bg-gray-200 rounded-full">
+                        <div id="processingRateBar" class="h-2 rounded-full bg-indigo-600" style="width: 0%"></div>
+                    </div>
+                </div>
+                
+                <!-- Latest Queued Items -->
+                <h3 class="text-sm font-semibold text-gray-700 mb-2">Latest Queue Items</h3>
+                <div id="queueItems" class="space-y-2 max-h-36 overflow-y-auto">
+                    <div class="text-sm text-gray-500">No items in queue</div>
+                </div>
+            </div>
+
+            <!-- Recommendations -->
+            <div class="bg-white rounded-lg shadow-sm p-6">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">
+                    <i class="fas fa-lightbulb text-yellow-600 mr-2"></i>
+                    Recommendations
+                </h2>
+
+                <div id="recommendationsList" class="space-y-3">
+                    <div class="flex items-start">
+                        <i class="fas fa-info-circle text-blue-600 mr-3 mt-1"></i>
+                        <p class="text-gray-700">Loading recommendations...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- System Status -->
+            <div class="bg-white rounded-lg shadow-sm p-6">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">
+                    <i class="fas fa-server text-purple-600 mr-2"></i>
+                    System Status
+                </h2>
+
+                <div class="space-y-4">
+                    <div class="flex justify-between items-center">
+                        <span class="text-gray-700">API Status</span>
+                        <span id="apiStatus" class="px-3 py-1 rounded-full text-sm bg-green-100 text-green-800">
+                            <i class="fas fa-check-circle mr-1"></i>Operational
+                        </span>
+                    </div>
+
+                    <div class="flex justify-between items-center">
+                        <span class="text-gray-700">Next Reset</span>
+                        <span id="nextReset" class="text-gray-600">--:--</span>
+                    </div>
+
+                    <div class="flex justify-between items-center">
+                        <span class="text-gray-700">Wait Time</span>
+                        <span id="waitTime" class="text-gray-600">0 seconds</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Processing Strategy -->
+            <div class="bg-white rounded-lg shadow-sm p-6">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">
+                    <i class="fas fa-cogs text-indigo-600 mr-2"></i>
+                    Processing Strategy
+                </h2>
+
+                <div id="strategyInfo" class="space-y-3">
+                    <div class="flex items-center">
+                        <span class="text-gray-700 mr-3">Current Strategy:</span>
+                        <span id="currentStrategy" class="px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-800">
+                            Normal
+                        </span>
+                    </div>
+                    
+                    <div class="text-sm text-gray-600">
+                        <p id="strategyDescription">Processing videos with standard settings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Activity -->
+        <div class="bg-white rounded-lg shadow-sm p-6 mt-6">
+            <h2 class="text-xl font-bold text-gray-800 mb-4">
+                <i class="fas fa-history text-gray-600 mr-2"></i>
+                Activity Log
+            </h2>
+            
+            <div id="activityLog" class="space-y-2 max-h-64 overflow-y-auto">
+                <p class="text-gray-500 text-sm">No recent activity</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class QuotaMonitor {
+            constructor() {
+                this.initializeEventListeners();
+                this.loadQuotaStatus();
+                this.startAutoRefresh();
+            }
+
+            initializeEventListeners() {
+                document.getElementById('refreshBtn').addEventListener('click', () => {
+                    this.loadQuotaStatus();
+                });
+
+                document.getElementById('resetBtn').addEventListener('click', () => {
+                    this.resetQuotaStatus();
+                });
+            }            async loadQuotaStatus() {
+                try {
+                    const response = await fetch('/api/videos/quota-status');
+                    const data = await response.json();
+                    
+                    this.updateDashboard(data.quota_status);
+                    this.updateRecommendations(data.recommendations);
+                    
+                    // Update queue monitoring section
+                    if (data.queue_status) {
+                        this.updateQueueMonitoring(data.queue_status);
+                    }
+                    
+                    this.logActivity('Quota status refreshed');
+                    
+                } catch (error) {
+                    console.error('Error loading quota status:', error);
+                    this.logActivity('Error loading quota status: ' + error.message);
+                }
+            }
+
+            async resetQuotaStatus() {
+                try {
+                    const response = await fetch('/api/videos/quota-reset', {
+                        method: 'POST'
+                    });
+                    
+                    if (response.ok) {
+                        this.logActivity('Quota status reset successfully');
+                        this.loadQuotaStatus();
+                    } else {
+                        throw new Error('Reset failed');
+                    }
+                    
+                } catch (error) {
+                    console.error('Error resetting quota:', error);
+                    this.logActivity('Error resetting quota: ' + error.message);
+                }
+            }
+
+            updateDashboard(status) {
+                // Update status alert
+                const statusAlert = document.getElementById('statusAlert');
+                if (status.is_quota_exceeded) {
+                    statusAlert.classList.remove('hidden');
+                } else {
+                    statusAlert.classList.add('hidden');
+                }
+
+                // Update requests per minute
+                const minutePercent = (status.requests_this_minute / status.limits.requests_per_minute) * 100;
+                document.getElementById('minuteRequestsText').textContent = 
+                    `${status.requests_this_minute} / ${status.limits.requests_per_minute}`;
+                document.getElementById('minuteRequestsFill').style.width = `${minutePercent}%`;
+
+                // Update requests per day
+                const dayPercent = (status.requests_today / status.limits.requests_per_day) * 100;
+                document.getElementById('dayRequestsText').textContent = 
+                    `${status.requests_today} / ${status.limits.requests_per_day}`;
+                document.getElementById('dayRequestsFill').style.width = `${dayPercent}%`;
+
+                // Update tokens per minute
+                const tokenPercent = (status.tokens_this_minute / status.limits.tokens_per_minute) * 100;
+                document.getElementById('tokensText').textContent = 
+                    `${status.tokens_this_minute} / ${status.limits.tokens_per_minute}`;
+                document.getElementById('tokensFill').style.width = `${tokenPercent}%`;
+
+                // Update system status
+                const apiStatus = document.getElementById('apiStatus');
+                if (status.is_quota_exceeded) {
+                    apiStatus.innerHTML = '<i class="fas fa-exclamation-triangle mr-1"></i>Limited';
+                    apiStatus.className = 'px-3 py-1 rounded-full text-sm bg-red-100 text-red-800';
+                } else {
+                    apiStatus.innerHTML = '<i class="fas fa-check-circle mr-1"></i>Operational';
+                    apiStatus.className = 'px-3 py-1 rounded-full text-sm bg-green-100 text-green-800';
+                }
+
+                // Update wait time
+                document.getElementById('waitTime').textContent = 
+                    status.wait_time_seconds > 0 ? `${status.wait_time_seconds} seconds` : 'None';
+
+                // Update next reset time
+                const nextReset = new Date(Date.now() + (60 - new Date().getSeconds()) * 1000);
+                document.getElementById('nextReset').textContent = 
+                    nextReset.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+            }            updateRecommendations(recommendations) {
+                const container = document.getElementById('recommendationsList');
+                container.innerHTML = '';
+
+                recommendations.forEach(rec => {
+                    const div = document.createElement('div');
+                    div.className = 'flex items-start';
+                    
+                    let iconClass = 'fas fa-info-circle text-blue-600';
+                    if (rec.includes('exceeded') || rec.includes('limit')) {
+                        iconClass = 'fas fa-exclamation-triangle text-red-600';
+                    } else if (rec.includes('approaching') || rec.includes('high')) {
+                        iconClass = 'fas fa-exclamation-circle text-yellow-600';
+                    } else if (rec.includes('normal') || rec.includes('within')) {
+                        iconClass = 'fas fa-check-circle text-green-600';
+                    }
+                    
+                    div.innerHTML = `
+                        <i class="${iconClass} mr-3 mt-1"></i>
+                        <p class="text-gray-700">${rec}</p>
+                    `;
+                    container.appendChild(div);
+                });
+            }
+            
+            updateQueueMonitoring(queueStatus) {
+                // Update queue stats
+                const queueLength = queueStatus.queue_length || 0;
+                const processedRequests = queueStatus.processed_requests || 0;
+                const totalRequests = queueLength + processedRequests;
+                
+                // Update counters
+                document.getElementById('totalRequests').textContent = totalRequests;
+                document.getElementById('processedRequests').textContent = processedRequests;
+                document.getElementById('pendingRequests').textContent = queueLength;
+                document.getElementById('queueLength').textContent = queueLength;
+                
+                // Calculate and update processing rate
+                const processingRate = queueStatus.processing_rate || 0;
+                document.getElementById('processingRate').textContent = `${processingRate} req/min`;
+                
+                // Update processing rate bar (max at 10 req/min)
+                const ratePercent = Math.min(100, (processingRate / 10) * 100);
+                document.getElementById('processingRateBar').style.width = `${ratePercent}%`;
+                
+                // Update queue items list
+                const queueItemsContainer = document.getElementById('queueItems');
+                queueItemsContainer.innerHTML = '';
+                
+                if (queueStatus.pending_requests && queueStatus.pending_requests.length > 0) {
+                    queueStatus.pending_requests.forEach((item, index) => {
+                        if (index < 5) {  // Show max 5 items
+                            const div = document.createElement('div');
+                            div.className = 'bg-gray-50 p-2 rounded text-sm';
+                            
+                            const priorityClass = item.priority > 1 ? 'text-red-600' : 'text-gray-600';
+                            const priorityBadge = item.priority > 1 ? 
+                                `<span class="px-2 py-0.5 bg-red-100 text-red-800 rounded-full text-xs">High</span>` : '';
+                            
+                            div.innerHTML = `
+                                <div class="flex justify-between items-center">
+                                    <span class="${priorityClass}"><i class="fas fa-clock mr-1"></i>${item.function}</span>
+                                    ${priorityBadge}
+                                </div>
+                                <div class="text-xs text-gray-500 mt-1">Queued at: ${new Date(item.timestamp).toLocaleTimeString()}</div>
+                            `;
+                            queueItemsContainer.appendChild(div);
+                        }
+                    });
+                } else {
+                    queueItemsContainer.innerHTML = '<div class="text-sm text-gray-500">No items in queue</div>';
+                }
+                
+                // Update queue details
+                const queueDetails = document.getElementById('queueDetails');
+                queueDetails.innerHTML = '';
+                
+                if (queueStatus.pending_requests && queueStatus.pending_requests.length > 0) {
+                    queueStatus.pending_requests.forEach((item, index) => {
+                        if (index < 3) {  // Show top 3 items
+                            const div = document.createElement('div');
+                            div.className = 'p-2 border-l-2 border-purple-400';
+                            
+                            div.innerHTML = `
+                                <div class="text-sm font-medium">${item.function}</div>
+                                <div class="text-xs text-gray-500">Priority: ${item.priority} | Queued at: ${new Date(item.timestamp).toLocaleTimeString()}</div>
+                            `;
+                            queueDetails.appendChild(div);
+                        }
+                    });
+                } else {
+                    queueDetails.innerHTML = '<div class="text-sm text-gray-500 p-2">Queue is empty</div>';
+                }
+                
+                // Update current strategy
+                if (queueStatus.current_strategy) {
+                    const strategyElements = document.querySelectorAll('#currentStrategy');
+                    strategyElements.forEach(el => {
+                        el.textContent = queueStatus.current_strategy;
+                        
+                        // Update style based on strategy
+                        if (queueStatus.current_strategy === 'emergency') {
+                            el.className = 'text-sm font-semibold text-red-600';
+                        } else if (queueStatus.current_strategy === 'batch') {
+                            el.className = 'text-sm font-semibold text-green-600';
+                        } else {
+                            el.className = 'text-sm font-semibold text-blue-600';
+                        }
+                    });
+                }
+            }
+
+            logActivity(message) {
+                const log = document.getElementById('activityLog');
+                const timestamp = new Date().toLocaleTimeString();
+                
+                const div = document.createElement('div');
+                div.className = 'text-sm text-gray-600';
+                div.innerHTML = `<span class="text-gray-400">[${timestamp}]</span> ${message}`;
+                
+                log.insertBefore(div, log.firstChild);
+                
+                // Keep only last 10 entries
+                while (log.children.length > 10) {
+                    log.removeChild(log.lastChild);
+                }
+            }
+
+            startAutoRefresh() {
+                // Refresh every 30 seconds
+                setInterval(() => {
+                    this.loadQuotaStatus();
+                }, 30000);
+            }
+        }        // Function to switch processing strategy
+        async function switchStrategy(strategy) {
+            try {
+                const response = await fetch('/api/videos/switch-strategy', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ strategy })
+                });
+                
+                if (response.ok) {
+                    const quotaMonitor = window.quotaMonitorInstance;
+                    if (quotaMonitor) {
+                        quotaMonitor.logActivity(`Switched to ${strategy} strategy`);
+                        quotaMonitor.loadQuotaStatus();
+                    }
+                }
+            } catch (error) {
+                console.error('Error switching strategy:', error);
+            }
+        }
+        
+        // Initialize the monitor when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            // Create instance and store it globally to access from outside
+            window.quotaMonitorInstance = new QuotaMonitor();
+        });
+    </script>
+</body>
+</html>
